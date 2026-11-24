@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Librejo – prototype</title>
+<meta name="theme-color" content="#1F6F6B">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <img src="logo.svg" alt="Librejo">
+  <p>Prototype de test : l'installation et l'accès au dossier tiennent-ils d'un jour à l'autre ?</p>
+</header>
+<div class="bandeau">Test uniquement. N'y mettez aucune donnée d'usager.</div>
+
+<section aria-labelledby="t1">
+  <h2 id="t1"><span class="num">1</span>Ce poste</h2>
+  <ul class="diag" id="diag"></ul>
+</section>
+
+<section aria-labelledby="t2">
+  <h2 id="t2"><span class="num">2</span>Installer l'application</h2>
+  <p id="installTexte"></p>
+  <div class="ligne"><button id="btnInstaller" hidden>Installer Librejo</button></div>
+</section>
+
+<section aria-labelledby="t3">
+  <h2 id="t3"><span class="num">3</span>Choisir le dossier</h2>
+  <p class="aide">Choisissez un dossier de test, là où Librejo serait rangé (NAS, lecteur réseau, OneDrive, disque). Le prototype y crée un seul fichier : <code>librejo-test.json</code>.</p>
+  <div class="ligne">
+    <button id="btnChoisir">Choisir le dossier</button>
+    <button id="btnReautoriser" class="second" hidden>Réautoriser le dossier</button>
+    <button id="btnOublier" class="second" hidden>Oublier le dossier</button>
+  </div>
+  <div id="dossierEtat" role="status"></div>
+</section>
+
+<section aria-labelledby="t4" id="blocReglage" hidden>
+  <h2 id="t4"><span class="num">4</span>Écrire et relire un réglage</h2>
+  <label for="nom">Nom de la structure (fictif)</label>
+  <div class="ligne">
+    <input type="text" id="nom" autocomplete="off" placeholder="Exemple : Association des Tilleuls">
+    <button id="btnEnregistrer">Enregistrer</button>
+  </div>
+  <div id="reglageEtat" role="status"></div>
+</section>
+
+<section aria-labelledby="t5" id="blocJournal" hidden>
+  <h2 id="t5"><span class="num">5</span>Journal des ouvertures</h2>
+  <p class="aide">Une ligne par ouverture. « Conservée » veut dire que le dossier s'est rouvert tout seul, sans rien demander : c'est ce qu'on veut voir après une nuit ou un redémarrage.</p>
+  <div class="defile"><table><thead><tr><th>Date</th><th>Poste</th><th>Mode</th><th>Autorisation à l'ouverture</th></tr></thead><tbody id="journal"></tbody></table></div>
+  <div class="ligne"><button id="btnCopier" class="second">Copier le rapport</button><span id="copieEtat" class="aide" role="status"></span></div>
+</section>
+
+<footer>
+  <p>Librejo, prototype nº 1. Ce site ne reçoit aucune donnée : le fichier de test est écrit sur votre poste, dans le dossier que vous choisissez.</p>
+</footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
