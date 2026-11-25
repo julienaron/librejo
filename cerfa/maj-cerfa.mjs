@@ -23,25 +23,22 @@ const attrs=s=>Object.fromEntries([...s.matchAll(/([\w:-]+)\s*=\s*"([^"]*)"/g)].
 const dec=s=>String(s||'').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&apos;|&#39;/g,"'").replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/\s+/g,' ').trim();
 const NUM=/\b(\d{5})\s*\*\s*(\d{2})\b/;
 const out={};
-for(const m of xml.matchAll(/<ServiceEnLigne\b([^>]*?)(?:\/>|>([\s\S]*?)<\/ServiceEnLigne>)/g)){
-  const a=attrs(m[1]), body=m[2]||'';
-  if(a.type&&!/formulaire/i.test(a.type)) continue;
+const add=(numero,titre,page,url)=>{ const n=String(numero||'').match(NUM); if(!n) return; const base=n[1], v=+n[2], cur=out[base];
+  if(!cur||v>cur.v||(v===cur.v&&!cur.titre&&titre)) out[base]={numero:`${base}*${n[2]}`,v,titre:titre||(cur&&cur.titre)||'',page:page||(cur&&cur.page)||'',url:url||(cur&&cur.url)||''}; };
+// Format 3.5 : une fiche par ressource, <ServiceComplementaire ID="R…" type="Formulaire" spUrl="…"><dc:title>…</dc:title>…<NumeroCerfa>13974*02</NumeroCerfa>
+for(const f of files){ const root=(f.xml.match(/<ServiceComplementaire\b([^>]*)>/)||[])[1]; if(!root) continue; const a=attrs(root);
+  if(!/formulaire/i.test(a.type||'')) continue;
+  const num=(f.xml.match(/<NumeroCerfa>([^<]*)<\/NumeroCerfa>/)||[])[1]; if(!num) continue;
+  const titre=dec((f.xml.match(/<dc:title>([\s\S]*?)<\/dc:title>/)||[])[1]);
+  const urls=[...f.xml.matchAll(/\bURL="([^"]+)"/g)].map(m=>m[1].replace(/&amp;/g,'&')), pdf=urls.find(u=>/\.pdf(\?|$)/i.test(u))||'';
+  add(num,titre,a.spurl||(a.id?`https://www.service-public.gouv.fr/particuliers/vosdroits/${a.id}`:''),pdf); }
+// Ancien format (fichier unique avec des <ServiceEnLigne … numerocerfa="…">), gardé pour les tests
+if(!Object.keys(out).length) for(const m of xml.matchAll(/<ServiceEnLigne\b([^>]*?)(?:\/>|>([\s\S]*?)<\/ServiceEnLigne>)/g)){
+  const a=attrs(m[1]), body=m[2]||''; if(a.type&&!/formulaire/i.test(a.type)) continue;
   const raw=a.numerocerfa||((a.commentairelien||'').match(NUM)||[])[0]||((body.replace(/<NoticeLiee[\s\S]*?(<\/NoticeLiee>|\/>)/g,'').match(NUM))||[])[0];
-  const n=String(raw||'').match(NUM); if(!n) continue;
-  const base=n[1], v=+n[2], titre=dec((body.match(/<Titre>([\s\S]*?)<\/Titre>/)||[])[1]||a.titre||'');
-  const id=a.id||a['dc:identifier']||'', page=/^R\d+$/.test(id)?`https://www.service-public.gouv.fr/particuliers/vosdroits/${id}`:'';
-  const cur=out[base];
-  if(!cur||v>cur.v||(v===cur.v&&!cur.titre&&titre)) out[base]={numero:`${base}*${n[2]}`,v,titre,page:page||(cur&&cur.page)||'',url:a.url||(cur&&cur.url)||''};
-}
+  const id=a.id||''; add(raw,dec((body.match(/<Titre>([\s\S]*?)<\/Titre>/)||[])[1]||a.titre||''),/^R\d+$/.test(id)?`https://www.service-public.gouv.fr/particuliers/vosdroits/${id}`:'',a.url||''); }
+const ex=files.find(f=>/<NumeroCerfa>16029/.test(f.xml)); if(ex) console.log('Exemple (16029) :',ex.name,(ex.xml.match(/<NumeroCerfa>[\s\S]{0,1500}/)||[''])[0].replace(/\s+/g,' '));
 const keys=Object.keys(out).sort();
-if(keys.length<MIN||process.env.DIAG){
-  const tags={}; for(const m of xml.matchAll(/<([A-Za-z][\w:.-]*)/g)) tags[m[1]]=(tags[m[1]]||0)+1;
-  console.log('Balises les plus fréquentes :',Object.entries(tags).sort((a,b)=>b[1]-a[1]).slice(0,40).map(([k,v])=>k+'='+v).join(' '));
-  console.log('Début du fichier :',xml.slice(0,800).replace(/\s+/g,' '));
-  const ex=[...xml.matchAll(/.{0,300}\d{5}\s*\*\s*\d{2}.{0,200}/g)].slice(0,4).map(m=>m[0].replace(/\s+/g,' '));
-  console.log('Exemples autour d’un numéro Cerfa :\n- '+ex.join('\n- '));
-  const ex2=files.filter(f=>/\d{5}\s*\*\s*\d{2}/.test(f.xml)).slice(0,2); ex2.forEach(f=>console.log('--- Fiche',f.name,':\n'+f.xml.slice(0,2500)));
-  const sel=[...xml.matchAll(/<ServiceEnLigne\b[^>]*>/gi)].slice(0,3).map(m=>m[0]); console.log('Exemples de ServiceEnLigne :',sel.join(' || ')); }
 if(keys.length<MIN){ console.error(`Seulement ${keys.length} Cerfa trouvés : lecture suspecte, cerfa.json n'est pas modifié.`); process.exit(1); }
 const cerfa=Object.fromEntries(keys.map(k=>{ const {v,...r}=out[k]; return [k,r]; }));
 const json={maj:new Date().toISOString().slice(0,10),source:'Service-Public.gouv.fr / DILA, données ouvertes (licence ouverte 2.0) : '+SOURCE,n:keys.length,cerfa};
