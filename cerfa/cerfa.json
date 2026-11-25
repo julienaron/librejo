@@ -1,0 +1,3553 @@
+{
+ "maj": "2026-11-25",
+ "source": "Service-Public.gouv.fr / DILA, données ouvertes (licence ouverte 2.0) : https://www.data.gouv.fr/api/1/datasets/r/0ed10f28-d197-4324-97b3-037f625095ac",
+ "n": 591,
+ "cerfa": {
+  "10011": {
+   "numero": "10011*07",
+   "titre": "Déclaration d'effet indésirable susceptible d'être dû à un médicament ou produit",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14404",
+   "url": ""
+  },
+  "10070": {
+   "numero": "10070*03",
+   "titre": "Déclaration d'entrée en France en franchise de biens personnels en provenance de pays tiers à l'Union Européenne",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42719",
+   "url": ""
+  },
+  "10071": {
+   "numero": "10071*18",
+   "titre": "Demande de bulletin n°3 du casier judiciaire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R72642",
+   "url": ""
+  },
+  "10072": {
+   "numero": "10072*04",
+   "titre": "Déclaration d'intention d'aliéner ou demande d'acquisition d'un bien soumis à un droit de préemption",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1492",
+   "url": ""
+  },
+  "10074": {
+   "numero": "10074*08",
+   "titre": "Demande d'affiliation d'une veuve (veuf) titulaire d'une pension militaire de réversion",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1990",
+   "url": ""
+  },
+  "10083": {
+   "numero": "10083*03",
+   "titre": "Autorisation de transport de certains médicaments dans un pays de l'espace Schengen",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33426",
+   "url": ""
+  },
+  "10103": {
+   "numero": "10103*14",
+   "titre": "Établir un contrat d'apprentissage",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1319",
+   "url": "https://assistance.emploi.gouv.fr/confluence/download/attachments/23530111/CELIA-Mode%20op%C3%A9ratoire_20231218.pdf?version=1&modificationDate=1703178326565&api=v2"
+  },
+  "10112": {
+   "numero": "10112*06",
+   "titre": "Premier examen médical prénatal - Spécimen",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1305",
+   "url": ""
+  },
+  "10128": {
+   "numero": "10128*04",
+   "titre": "Demande d'accord préalable - Examens de biologie médicale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1426",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/151/s3132.pdf"
+  },
+  "10131": {
+   "numero": "10131*05",
+   "titre": "Déclaration de maladie professionnelle pour les salariés agricoles",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19393",
+   "url": ""
+  },
+  "10170": {
+   "numero": "10170*08",
+   "titre": "Avis d'arrêt de travail",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1458",
+   "url": ""
+  },
+  "10397": {
+   "numero": "10397*29",
+   "titre": "Allocations et prestations familiales - Déclaration de ressources 2025 par courrier",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R69214",
+   "url": ""
+  },
+  "10400": {
+   "numero": "10400*28",
+   "titre": "Déclaration de ressources auprès de la MSA",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R36008",
+   "url": ""
+  },
+  "10401": {
+   "numero": "10401*02",
+   "titre": "Demande d'information particulière en cas de coupure de courant électrique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33397",
+   "url": ""
+  },
+  "10402": {
+   "numero": "10402*02",
+   "titre": "Certificat médical - Demande d'information particulière en cas de coupure de courant électrique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33396",
+   "url": ""
+  },
+  "10431": {
+   "numero": "10431*05",
+   "titre": "Demande de capital décès",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1442",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/169/s3180.pdf"
+  },
+  "10518": {
+   "numero": "10518*01",
+   "titre": "Traitement d'orthopédie dento-faciale - Demande d'entente préalable chirurgien-dentiste",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1427",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/226/s3150.pdf"
+  },
+  "10519": {
+   "numero": "10519*01",
+   "titre": "Traitements bucco-dentaires - Demande d'entente préalable chirurgien dentiste (remplissage informatique)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1428",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/223/s3151.pdf"
+  },
+  "10522": {
+   "numero": "10522*01",
+   "titre": "Traitements d'orthopédie dento-maxillo-faciale - Demande d'entente préalable - Médecin",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1429",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/227/s3155.pdf"
+  },
+  "10524": {
+   "numero": "10524*01",
+   "titre": "Traitements bucco-dentaires - Demande d'entente préalable - Médecin (remplissage informatique)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1430",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/224/s3157.pdf"
+  },
+  "10544": {
+   "numero": "10544*02",
+   "titre": "Déclaration d'une allocation personnalisée d'autonomie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1331",
+   "url": ""
+  },
+  "10798": {
+   "numero": "10798*04",
+   "titre": "Demande d'attestation d'accueil",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10751",
+   "url": ""
+  },
+  "10840": {
+   "numero": "10840*07",
+   "titre": "Demande d'aide personnelle au logement (APL, ALF, ALS) Caf et MSA",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R41448",
+   "url": "https://www.msa.fr/lfy/documents/11566/48471/Demande+d%27aide+au+logement.pdf"
+  },
+  "10842": {
+   "numero": "10842*07",
+   "titre": "Attestation de loyer ou résidence en foyer",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51280",
+   "url": "https://www.msa.fr/lfy/documents/11566/48471/Attestation+de+loyer+et+de+r%C3%A9sidence+en+foyer.pdf"
+  },
+  "10860": {
+   "numero": "10860*05",
+   "titre": "Demande d'allocation de reconnaissance du combattant (anciennement retraite du combattant)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1301",
+   "url": ""
+  },
+  "10861": {
+   "numero": "10861*02",
+   "titre": "Demande du titre de prisonnier du \"Viêt-Minh\"",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1290",
+   "url": ""
+  },
+  "10871": {
+   "numero": "10871*01",
+   "titre": "Relevé mensuel des contrats de travail temporaire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14575",
+   "url": ""
+  },
+  "10873": {
+   "numero": "10873*02",
+   "titre": "Demande d'attribution du titre de déporté ou interné résistant",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1298",
+   "url": ""
+  },
+  "10915": {
+   "numero": "10915*02",
+   "titre": "Demande d'attribution du titre de déporté ou interné politique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1299",
+   "url": ""
+  },
+  "11051": {
+   "numero": "11051*02",
+   "titre": "Demande d'attribution du titre d'évadé",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12065",
+   "url": ""
+  },
+  "11054": {
+   "numero": "11054*01",
+   "titre": "Demande de pension d'orphelins de militaire ou de victime civile",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1303",
+   "url": ""
+  },
+  "11057": {
+   "numero": "11057*01",
+   "titre": "Déclaration de non-séparation de corps",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17202",
+   "url": ""
+  },
+  "11114": {
+   "numero": "11114*12",
+   "titre": "Déclaration particulière de livraison à soi-même réalisée hors d'une activité économique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17557",
+   "url": ""
+  },
+  "11126": {
+   "numero": "11126*26",
+   "titre": "Dossier vert (étudiant étranger) : demande d'admission préalable en université - 1ère année de licence ou Paces - 2027-2028",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1278",
+   "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/Notice%20dossier%20vert%20DAP%202027-2028.pdf"
+  },
+  "11137": {
+   "numero": "11137*03",
+   "titre": "Attestation de salaire - Accident du travail ou maladie professionnelle",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14581",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/88/s6202.pdf"
+  },
+  "11139": {
+   "numero": "11139*03",
+   "titre": "Cure thermale - Questionnaire de prise en charge (accompagné d'une déclaration de ressources).",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1482",
+   "url": ""
+  },
+  "11140": {
+   "numero": "11140*05",
+   "titre": "Prise en charge administrative de cure thermale et facturation",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19710",
+   "url": ""
+  },
+  "11162": {
+   "numero": "11162*05",
+   "titre": "Demande de remboursement des frais de transports pour motif médical en véhicule personnel et/ou transports en commun",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1432",
+   "url": "https://www.ameli.fr/sites/default/files/formulaires/S3140%20Demande%20remboursement%20frais%20transports%20motif%20m%C3%A9dical%20v%C3%A9hicule%20perso%20ou%20transports%20en%20commun.pdf"
+  },
+  "11163": {
+   "numero": "11163*03",
+   "titre": "Facture de transport Véhicule sanitaire léger (VSL) et ambulance",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R65311",
+   "url": ""
+  },
+  "11164": {
+   "numero": "11164*04",
+   "titre": "Demande d'accord préalable pour grand appareillage",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1431",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/154/s3604.pdf"
+  },
+  "11174": {
+   "numero": "11174*05",
+   "titre": "Demande de pension d'invalidité",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1261",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/173/s4150.pdf"
+  },
+  "11175": {
+   "numero": "11175*06",
+   "titre": "Demande d'Asi par le titulaire d'une pension d'invalidité versée par la Sécurité sociale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33837",
+   "url": "https://www.ameli.fr/sites/default/files/formulaires/S4151%20%20DEMANDE%20D%27ALLOCATION%20SUPPLEMENTAIRE%20INVALIDITE_Janv.2025.pdf"
+  },
+  "11192": {
+   "numero": "11192*03",
+   "titre": "Demande d'autorisation d'importation de matériels de guerre, armes et munitions",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R52898",
+   "url": ""
+  },
+  "11203": {
+   "numero": "11203*03",
+   "titre": "Demande de document de circulation (DCEM) pour un étranger mineur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1457",
+   "url": ""
+  },
+  "11237": {
+   "numero": "11237*03",
+   "titre": "Assurance invalidité - Déclaration de situation et de ressources",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R24549",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/95/s4152.pdf"
+  },
+  "11287": {
+   "numero": "11287*02",
+   "titre": "Demander un permis de transfert d'armes à feu et de munitions vers un pays européen",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33700",
+   "url": "https://www.douane.gouv.fr/sites/default/files/uploads/files/2019-04/notice-11287.pdf"
+  },
+  "11289": {
+   "numero": "11289*02",
+   "titre": "Déclaration de transfert d'armes à feu et de munitions par un armurier agréé",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R34996",
+   "url": ""
+  },
+  "11290": {
+   "numero": "11290*02",
+   "titre": "Accord préalable pour le transfert d'armes à feu et de munitions",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R52896",
+   "url": ""
+  },
+  "11291": {
+   "numero": "11291*02",
+   "titre": "Annexe à la déclaration ou au permis de transfert d'armes à feu et de munitions",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R35003",
+   "url": ""
+  },
+  "11294": {
+   "numero": "11294*13",
+   "titre": "Taxe sur les ventes de métaux précieux, bijoux, objets d'art, de collection et d'antiquité",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17176",
+   "url": ""
+  },
+  "11308": {
+   "numero": "11308*05",
+   "titre": "Déclaration individuelle de candidature - Élection des délégués cantonaux du 2ème collège - Mutualité sociale agricole",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53806",
+   "url": ""
+  },
+  "11309": {
+   "numero": "11309*05",
+   "titre": "Déclaration individuelle de candidature - Élection des délégués cantonaux du 1er collège - Mutualité sociale agricole",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53802",
+   "url": ""
+  },
+  "11310": {
+   "numero": "11310*05",
+   "titre": "Déclaration individuelle de candidature - Élection des délégués cantonaux du 3ème collège - Mutualité sociale agricole - Personnes morales",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53800",
+   "url": ""
+  },
+  "11319": {
+   "numero": "11319*23",
+   "titre": "Demande de bourse nationale de lycée - Année 2026-2027",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R43243",
+   "url": ""
+  },
+  "11353": {
+   "numero": "11353*03",
+   "titre": "Procuration sous signature privée valable 3 mois pour un seul paiement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17330",
+   "url": ""
+  },
+  "11358": {
+   "numero": "11358*08",
+   "titre": "Déclaration concernant l'assuré à la sécurité sociale militaire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1313",
+   "url": ""
+  },
+  "11359": {
+   "numero": "11359*12",
+   "titre": "Demande d'affiliation à la sécurité sociale militaire (CNMSS) en qualité de militaire retraité",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1382",
+   "url": ""
+  },
+  "11360": {
+   "numero": "11360*14",
+   "titre": "Déclaration d'accident (en dehors d'une mission et hors service) à la Caisse nationale militaire de sécurité sociale (CNMSS)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12060",
+   "url": ""
+  },
+  "11363": {
+   "numero": "11363*04",
+   "titre": "Demande de prime de déménagement (MSA)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50401",
+   "url": "http://www.msa.fr/lfy/documents/11566/48471/Demande+de+prime+de+demenagement.pdf"
+  },
+  "11370": {
+   "numero": "11370*03",
+   "titre": "Déclaration de situation familiale et de revenus des 12 derniers mois (demande d'Aspa ou d'Asi à la Cnav)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55605",
+   "url": "https://www.lassuranceretraite.fr/portail-info/files/live/sites/pub/files/PDF/declara-situation-ressources.pdf"
+  },
+  "11381": {
+   "numero": "11381*02",
+   "titre": "Bafa : demande d'aide à la formation (session d’approfondissement ou de qualification) versée par la Caf",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58266",
+   "url": "https://www.caf.fr/sites/default/files/medias/493/Allocataires/Vie%20personnelle/pdf/ASBAF006_demande%20d'aide%20pour%20le%20Bafa.pdf"
+  },
+  "11382": {
+   "numero": "11382*03",
+   "titre": "Demande de prêt à l'amélioration de l'habitat (PAH) de la Caf",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1293",
+   "url": "https://www.caf.fr/sites/default/files/medias/321/allocataires/Logement/Mod%C3%A8le%20imprime%20PAH.pdf"
+  },
+  "11383": {
+   "numero": "11383*02",
+   "titre": "Feuille d'accident du travail ou de maladie professionnelle (spécimen)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14592",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/190/s6201.pdf"
+  },
+  "11388": {
+   "numero": "11388*05",
+   "titre": "Feuille de soins - Sage-femme (spécimen)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1336",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/195/s3127.pdf"
+  },
+  "11389": {
+   "numero": "11389*05",
+   "titre": "Feuille de soins - Pharmacien (spécimen)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46206",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/194/s3115_0.pdf"
+  },
+  "11423": {
+   "numero": "11423*07",
+   "titre": "Allocations et prestations familiales - Déclaration de situation (MSA)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50542",
+   "url": ""
+  },
+  "11430": {
+   "numero": "11430*01",
+   "titre": "Déclaration de candidature aux concours nationaux d'agrégation pour le recrutement des professeurs des universités",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R11172",
+   "url": ""
+  },
+  "11431": {
+   "numero": "11431*01",
+   "titre": "Curriculum vitae - Concours nationaux d'agrégation pour le recrutement des professeurs des universités",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R453",
+   "url": ""
+  },
+  "11432": {
+   "numero": "11432*02",
+   "titre": "Déclaration de candidature aux concours de professeurs des universités - Praticiens hospitaliers",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2511",
+   "url": ""
+  },
+  "11433": {
+   "numero": "11433*01",
+   "titre": "Déclaration de candidature au concours de professeur des Universités - Praticiens hospitalier des centres de soins, d'enseignement et de recherche dentaires",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1674",
+   "url": ""
+  },
+  "11435": {
+   "numero": "11435*01",
+   "titre": "Déclaration de candidature au concours de maître de conférences des universités - praticien hospitalier des centres de soins, d'enseignement et de recherche dentaires",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R21234",
+   "url": ""
+  },
+  "11436": {
+   "numero": "11436*05",
+   "titre": "Demande de regroupement familial",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1251",
+   "url": "https://www.immigration.interieur.gouv.fr/content/download/87391/677548/file/cerfa_11436-05_notice.pdf"
+  },
+  "11437": {
+   "numero": "11437*04",
+   "titre": "Attestation de mise à disposition d'un logement dans le cadre d'un regroupement familial",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17771",
+   "url": ""
+  },
+  "11451": {
+   "numero": "11451*04",
+   "titre": "Feuille d'accident du travail ou maladie professionnelle pour les salariés agricoles",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19398",
+   "url": ""
+  },
+  "11469": {
+   "numero": "11469*03",
+   "titre": "Déclaration d'embauche d'un emploi familial",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1354",
+   "url": "https://www.urssaf.fr/files/live/sites/urssaffr/files/outils-documentation/formulaires-modeles/cerfa-declaration-employeur-pour-des-emplois-familiaux.pdf"
+  },
+  "11525": {
+   "numero": "11525*07",
+   "titre": "Demande de contribution aux charges du mariage",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1323",
+   "url": ""
+  },
+  "11527": {
+   "numero": "11527*03",
+   "titre": "Modèle d'attestation de témoin",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R11307",
+   "url": ""
+  },
+  "11530": {
+   "numero": "11530*11",
+   "titre": "Demande au juge aux affaires familiales (autorité parentale, droit de visite, pension alimentaire...)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R15764",
+   "url": ""
+  },
+  "11531": {
+   "numero": "11531*03",
+   "titre": "Demande de rectification d'une erreur ou d'une omission matérielle contenue dans un acte de l'état civil",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18387",
+   "url": ""
+  },
+  "11559": {
+   "numero": "11559*03",
+   "titre": "Questionnaire de maintien au régime français de sécurité sociale d'un travailleur salarié détaché",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14594",
+   "url": "http://www.ameli.fr/fileadmin/user_upload/formulaires/S3208.pdf"
+  },
+  "11562": {
+   "numero": "11562*02",
+   "titre": "Demande d'adhésion à une convention d'allocation spéciale du Fonds national de l'emploi (AS-FNE)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1297",
+   "url": ""
+  },
+  "11565": {
+   "numero": "11565*04",
+   "titre": "Demande d'extrait de matrice cadastrale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18819",
+   "url": ""
+  },
+  "11574": {
+   "numero": "11574*07",
+   "titre": "Prescription médicale de transport",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R15649",
+   "url": ""
+  },
+  "11575": {
+   "numero": "11575*08",
+   "titre": "Demande d'accord préalable de transport - prescription médicale de transport",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62614",
+   "url": "https://www.ameli.fr/sites/default/files/formulaires/S3139-DAP-prescription-medicale-transport.pdf"
+  },
+  "11626": {
+   "numero": "11626*07",
+   "titre": "Protocole de soins",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R15682",
+   "url": ""
+  },
+  "11683": {
+   "numero": "11683*04",
+   "titre": "Déclaration relative aux organes de direction, surveillance, contrôle de la personne morale (M3)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17343",
+   "url": ""
+  },
+  "11718": {
+   "numero": "11718*05",
+   "titre": "Recensement citoyen/JDC : déclaration de changement de domicile ou de résidence, de situation familiale, de situation professionnelle",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1249",
+   "url": ""
+  },
+  "11723": {
+   "numero": "11723*11",
+   "titre": "Demande en injonction de faire au tribunal judiciaire (incluant le tribunal de proximité)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1463",
+   "url": ""
+  },
+  "11779": {
+   "numero": "11779*12",
+   "titre": "Demande de bourse nationale d'études du second degré (enseignement agricole)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R21220",
+   "url": ""
+  },
+  "11791": {
+   "numero": "11791*03",
+   "titre": "Demande de pension d'invalidité de veuf(ve)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1436",
+   "url": "http://www.ameli.fr/fileadmin/user_upload/formulaires/S4153.pdf"
+  },
+  "11796": {
+   "numero": "11796*01",
+   "titre": "Demande par courrier de médaille d'honneur du travail : Côte-d'Or, Lozère, Savoie, Saint-Pierre et Miquelon, Mayotte, Nouvelle-Calédonie uniquement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1494",
+   "url": ""
+  },
+  "11797": {
+   "numero": "11797*01",
+   "titre": "Demande de médaille d'honneur du travail - Salariés résidant à l'étranger",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1495",
+   "url": ""
+  },
+  "11808": {
+   "numero": "11808*06",
+   "titre": "Demande de copie d'une décision de justice en matière civile, sociale ou commerciale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1408",
+   "url": ""
+  },
+  "11818": {
+   "numero": "11818*02",
+   "titre": "Demande de conversion d'une rente d'incapacité permanente en capital ou en rente réversible sur la tête du conjoint, du partenaire du Pacs ou du concubin (régime agricole)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33395",
+   "url": ""
+  },
+  "11819": {
+   "numero": "11819*03",
+   "titre": "Demande de classement d'un meublé de tourisme",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32445",
+   "url": ""
+  },
+  "11823": {
+   "numero": "11823*03",
+   "titre": "Demande d'autorisation de loterie - actes de bienfaisance – encouragement des arts – financement d'activités sportives à but non lucratif",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12059",
+   "url": ""
+  },
+  "11845": {
+   "numero": "11845*03",
+   "titre": "Déclaration d'abandon par un particulier d'arme et de munitions à l'Etat",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16883",
+   "url": ""
+  },
+  "11846": {
+   "numero": "11846*02",
+   "titre": "Déclaration d'abandon par une collectivité territoriale ou un établissement public de l'État d'arme et de munitions à l'État",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R138",
+   "url": ""
+  },
+  "11962": {
+   "numero": "11962*26",
+   "titre": "Demande d'admission préalable à l'inscription dans les cycles d'études des écoles nationales supérieures d'architecture pour l'année 2027-2028 (dossier jaune)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R15643",
+   "url": ""
+  },
+  "11979": {
+   "numero": "11979*13",
+   "titre": "Demande de réversion de la pension et de la retraite additionnelle à la suite du décès d’un fonctionnaire de l’État, d’un magistrat ou d’un militaire retraité",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R71480",
+   "url": ""
+  },
+  "11980": {
+   "numero": "11980*03",
+   "titre": "Demande de pension d'invalidité des salariés agricoles",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19408",
+   "url": ""
+  },
+  "11981": {
+   "numero": "11981*04",
+   "titre": "Demande de pension - Assurance d'invalidité des non-salariés agricoles",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19409",
+   "url": ""
+  },
+  "11998": {
+   "numero": "11998*02",
+   "titre": "Exonérations de taxes foncières sur les propriétés non bâties (déclaration n° 6707-SD)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R11273",
+   "url": "https://www.impots.gouv.fr/sites/default/files/formulaires/6707-sd/2016/6707-sd_1444.pdf"
+  },
+  "12010": {
+   "numero": "12010*02",
+   "titre": "Déclaration en mairie de la présence de termites dans un immeuble",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1486",
+   "url": ""
+  },
+  "12012": {
+   "numero": "12012*02",
+   "titre": "Déclaration en mairie des opérations d’incinération ou de traitement des bois et matériaux contaminés par les termites",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1488",
+   "url": ""
+  },
+  "12038": {
+   "numero": "12038*03",
+   "titre": "Demande d'allocation de soutien familial (ASF) : enfant recueilli",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54463",
+   "url": ""
+  },
+  "12040": {
+   "numero": "12040*04",
+   "titre": "Demande d'accord préalable (Assurance maladie, maternité, accident du travail, maladie professionnelle)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1424",
+   "url": "https://www.ameli.fr/sites/default/files/formulaires/150/s3108.cnam_homol_avril_2018_spec_non_remp_sec.pdf"
+  },
+  "12042": {
+   "numero": "12042*02",
+   "titre": "Prescription médicale pour grand appareillage",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32743",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/209/s3135.pdf"
+  },
+  "12045": {
+   "numero": "12045*01",
+   "titre": "Demande de conversion d'une rente d'incapacité permanente en capital ou en rente réversible sur la tête du conjoint (régime général)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1342",
+   "url": "https://www.ameli.fr/sites/default/files/formulaires/171/s6102b.pdf"
+  },
+  "12156": {
+   "numero": "12156*06",
+   "titre": "Association : demande de subvention",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1271",
+   "url": ""
+  },
+  "12218": {
+   "numero": "12218*04",
+   "titre": "Maladie à déclaration obligatoire - Orthopoxviroses (dont la variole)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63186",
+   "url": ""
+  },
+  "12231": {
+   "numero": "12231*09",
+   "titre": "Demande de pension de réversion et de rente d’éducation ou handicap à la suite du décès d'un fonctionnaire de l'État, d'un magistrat ou d'un militaire en activité",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10692",
+   "url": ""
+  },
+  "12267": {
+   "numero": "12267*06",
+   "titre": "Soins reçus à l'étranger - Déclaration à compléter par l'assuré",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17466",
+   "url": ""
+  },
+  "12283": {
+   "numero": "12283*03",
+   "titre": "Demande de retraite de réversion (employés et clercs de notaires)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R15957",
+   "url": ""
+  },
+  "12324": {
+   "numero": "12324*06",
+   "titre": "Demande de prestation partagée d'éducation de l'enfant (PreParE)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1490",
+   "url": ""
+  },
+  "12378": {
+   "numero": "12378*03",
+   "titre": "Maladie à déclaration obligatoire - Saturnisme et plombémie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R40386",
+   "url": ""
+  },
+  "12394": {
+   "numero": "12394*01",
+   "titre": "Dossier d'inscription au diplôme d'État de professeur de musique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2090",
+   "url": ""
+  },
+  "12411": {
+   "numero": "12411*03",
+   "titre": "Demande d'effacement du fichier national automatisé des empreintes génétiques (Fnaeg) - Procureur de la République",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33424",
+   "url": ""
+  },
+  "12413": {
+   "numero": "12413*03",
+   "titre": "Demande d’effacement des données enregistrées au fichier national automatisé des empreintes génétiques (Fnaeg) - Président de la chambre de l’instruction",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33422",
+   "url": ""
+  },
+  "12414": {
+   "numero": "12414*03",
+   "titre": "Demande d'effacement du fichier national automatisé des empreintes génétiques - Parents de personnes disparues",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33421",
+   "url": ""
+  },
+  "12434": {
+   "numero": "12434*05",
+   "titre": "Contrat de professionnalisation",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10338",
+   "url": ""
+  },
+  "12485": {
+   "numero": "12485*03",
+   "titre": "Déclarer son médecin traitant",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10884",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/132/s3704_0.pdf"
+  },
+  "12504": {
+   "numero": "12504*14",
+   "titre": "Demande de complémentaire santé solidaire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54651",
+   "url": ""
+  },
+  "12539": {
+   "numero": "12539*16",
+   "titre": "Demande de bourse de collège",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R11499",
+   "url": ""
+  },
+  "12541": {
+   "numero": "12541*02",
+   "titre": "Feuille de soins - Médecin (spécimen)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1334",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/193/s3110_0.pdf"
+  },
+  "12596": {
+   "numero": "12596*04",
+   "titre": "Premier certificat de santé",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10917",
+   "url": "https://sante.gouv.fr/IMG/pdf/pdf-cerfa_cs8_bleu-recto-verso-140x202mm.pdf"
+  },
+  "12597": {
+   "numero": "12597*06",
+   "titre": "Deuxième certificat de santé",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33394",
+   "url": "https://sante.gouv.fr/IMG/pdf/cerfa_cs9_vert-recto-verso-140x202mm-cs24.pdf"
+  },
+  "12598": {
+   "numero": "12598*06",
+   "titre": "Troisième certificat de santé",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33393",
+   "url": "https://sante.gouv.fr/IMG/pdf/cerfa_cs24_orange-recto-verso-140x202mm-cs24.pdf"
+  },
+  "12605": {
+   "numero": "12605*03",
+   "titre": "Demande d'aide du Fonds départemental d'insertion (FDI)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R31191",
+   "url": ""
+  },
+  "12608": {
+   "numero": "12608*03",
+   "titre": "Aide à l'accompagnement d'une association intermédiaire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2097",
+   "url": ""
+  },
+  "12612": {
+   "numero": "12612*03",
+   "titre": "Aide à l'accompagnement atelier et chantier d'insertion (ACI)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2083",
+   "url": ""
+  },
+  "12621": {
+   "numero": "12621*06",
+   "titre": "Déclaration de changement de situation à la Caisse nationale militaire de sécurité sociale (CNMSS)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1571",
+   "url": ""
+  },
+  "12622": {
+   "numero": "12622*04",
+   "titre": "Demande d'affiliation à la Caisse nationale militaire de sécurité sociale (CNMSS) en qualité d'orphelin de militaire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32225",
+   "url": ""
+  },
+  "12623": {
+   "numero": "12623*02",
+   "titre": "Demande d'agrément d'une association d'usagers du système de santé - Fiche A",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10946",
+   "url": ""
+  },
+  "12625": {
+   "numero": "12625*01",
+   "titre": "Convention d'allocations temporaires dégressives - Bulletin d'adhésion du salarié",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1351",
+   "url": ""
+  },
+  "12644": {
+   "numero": "12644*04",
+   "titre": "Demande d'autorisation d'acquisition et de détention d'armes et de munitions, de renouvellement d'autorisation et de détention (armes de catégorie B et certaines armes de catégorie A)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1499",
+   "url": ""
+  },
+  "12650": {
+   "numero": "12650*05",
+   "titre": "Arme de catégorie C - Déclaration d'acquisition, vente, cession ou mise en possession",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1501",
+   "url": ""
+  },
+  "12660": {
+   "numero": "12660*02",
+   "titre": "Demander la validation du permis de chasse pour l'année en cours",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19824",
+   "url": ""
+  },
+  "12666": {
+   "numero": "12666*05",
+   "titre": "Demande d'allocation journalière de présence parentale (AJPP) - MSA",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R67539",
+   "url": "https://www.msa.fr/lfp/documents/11566/48472/Demande+d+allocation+journaliere+de+presence+parentale+AJPP.pdf"
+  },
+  "12669": {
+   "numero": "12669*02",
+   "titre": "Demande d'inscription sur les listes électorales",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16024",
+   "url": ""
+  },
+  "12670": {
+   "numero": "12670*02",
+   "titre": "Élections municipales : demande d'inscription d'un citoyen européen",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16026",
+   "url": ""
+  },
+  "12671": {
+   "numero": "12671*02",
+   "titre": "Élections européennes : demande d'inscription d'un citoyen européen",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16025",
+   "url": ""
+  },
+  "12672": {
+   "numero": "12672*04",
+   "titre": "Déclaration d'un séjour \"Vacances adaptées organisées - VAO\" pour personnes handicapées majeures",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1311",
+   "url": ""
+  },
+  "12699": {
+   "numero": "12699*03",
+   "titre": "Faire une déclaration d'éducateur sportif (par courrier)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32050",
+   "url": ""
+  },
+  "12708": {
+   "numero": "12708*02",
+   "titre": "Ordonnance de médicaments ou de produits et prestations d'exception",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2120",
+   "url": "http://www.ameli.fr/fileadmin/user_upload/formulaires/S3326.pdf"
+  },
+  "12709": {
+   "numero": "12709*08",
+   "titre": "Propriétaire bailleur : demander à l’Anah une subvention pour travaux",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2466",
+   "url": ""
+  },
+  "12711": {
+   "numero": "12711*08",
+   "titre": "Propriétaire occupant : demande de subvention pour travaux (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2033",
+   "url": ""
+  },
+  "12712": {
+   "numero": "12712*05",
+   "titre": "Copropriétaires : demande de subvention pour réaliser des travaux à la demande des copropriétaires ayant désigné un mandataire commun (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1881",
+   "url": ""
+  },
+  "12713": {
+   "numero": "12713*07",
+   "titre": "Anah : demande de subvention pour réaliser des travaux dans un immeuble en copropriété",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18452",
+   "url": ""
+  },
+  "12714": {
+   "numero": "12714*04",
+   "titre": "Communes ou groupement de communes : demande de travaux effectués d'office (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68125",
+   "url": ""
+  },
+  "12749": {
+   "numero": "12749*02",
+   "titre": "Candidature au concours - Emploi spécialisé de sous-officier ou d'officier marinier - École de l'armée de l'Air de Saintes (EETAA)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1321",
+   "url": ""
+  },
+  "12751": {
+   "numero": "12751*01",
+   "titre": "Déclaration d'un local hébergeant des mineurs",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1236",
+   "url": ""
+  },
+  "12753": {
+   "numero": "12753*03",
+   "titre": "Demande d'acquisition de la nationalité française par naturalisation ou réintégration",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16995",
+   "url": ""
+  },
+  "12785": {
+   "numero": "12785*05",
+   "titre": "Déclaration conjointe d'exercice en commun de l'autorité parentale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2000",
+   "url": ""
+  },
+  "12807": {
+   "numero": "12807*08",
+   "titre": "Propriétaire bailleur : demander une convention Anah sans travaux (loyer intermédiaire)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12524",
+   "url": ""
+  },
+  "12808": {
+   "numero": "12808*09",
+   "titre": "Propriétaire bailleur : demander une convention Anah sans travaux (loyer social ou très social)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1052",
+   "url": ""
+  },
+  "12819": {
+   "numero": "12819*06",
+   "titre": "Demander un certificat de non-Pacs pour le partenaire étranger né à l'étranger",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2107",
+   "url": ""
+  },
+  "12820": {
+   "numero": "12820*02",
+   "titre": "Demande d’un certificat de non-opposition",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19762",
+   "url": ""
+  },
+  "12821": {
+   "numero": "12821*02",
+   "titre": "Demande de certificat de non-appel",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18606",
+   "url": ""
+  },
+  "12823": {
+   "numero": "12823*03",
+   "titre": "Demande de copie d'une décision de justice pénale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18631",
+   "url": ""
+  },
+  "12825": {
+   "numero": "12825*05",
+   "titre": "Demande d'indemnisation auprès de la Commission d'indemnisation des victimes d'infractions (Civi)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18782",
+   "url": ""
+  },
+  "12827": {
+   "numero": "12827*02",
+   "titre": "Déclaration de maladie professionnelle",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R482",
+   "url": ""
+  },
+  "12946": {
+   "numero": "12946*02",
+   "titre": "Demande en injonction de payer au président du tribunal de commerce",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16191",
+   "url": ""
+  },
+  "12948": {
+   "numero": "12948*06",
+   "titre": "Demande en injonction de payer devant le président du tribunal judiciaire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1465",
+   "url": ""
+  },
+  "13343": {
+   "numero": "13343*11",
+   "titre": "Demande d’aide financière médico-sociale auprès de la caisse nationale militaire de sécurité sociale (CNMSS)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12056",
+   "url": ""
+  },
+  "13344": {
+   "numero": "13344*11",
+   "titre": "Demander une aide ménagère à domicile à la caisse nationale militaire de sécurité sociale (CNMSS)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12536",
+   "url": ""
+  },
+  "13351": {
+   "numero": "13351*03",
+   "titre": "Fiche de déclaration initiale de la tuberculose",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58676",
+   "url": ""
+  },
+  "13394": {
+   "numero": "13394*05",
+   "titre": "Demande d'agrément d'assistante maternelle ou assistant maternel",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19162",
+   "url": ""
+  },
+  "13395": {
+   "numero": "13395*02",
+   "titre": "Demande d'agrément d'assistant(e) familial(e)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R39725",
+   "url": ""
+  },
+  "13405": {
+   "numero": "13405*15",
+   "titre": "Demande de permis de démolir",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1980",
+   "url": ""
+  },
+  "13406": {
+   "numero": "13406*17",
+   "titre": "Demande de permis de construire pour une maison individuelle et/ou ses annexes comprenant ou non des démolitions",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R11637",
+   "url": ""
+  },
+  "13407": {
+   "numero": "13407*11",
+   "titre": "Déclaration d'ouverture de chantier (DOC)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1976",
+   "url": ""
+  },
+  "13408": {
+   "numero": "13408*14",
+   "titre": "Déclaration attestant l'achèvement et la conformité des travaux",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1978",
+   "url": ""
+  },
+  "13409": {
+   "numero": "13409*17",
+   "titre": "Demande de permis de construire comprenant ou non des démolitions",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R20835",
+   "url": ""
+  },
+  "13410": {
+   "numero": "13410*13",
+   "titre": "Demande de certificat d'urbanisme",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1970",
+   "url": ""
+  },
+  "13435": {
+   "numero": "13435*03",
+   "titre": "Demande d'allocation supplémentaire d'invalidité (Asi) auprès de la MSA",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16974",
+   "url": ""
+  },
+  "13458": {
+   "numero": "13458*04",
+   "titre": "Propriétaire bailleur : engagements à respecter pour l'octroi d'une subvention (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R13098",
+   "url": ""
+  },
+  "13459": {
+   "numero": "13459*04",
+   "titre": "Propriétaire occupant : engagements à respecter pour l'octroi d'une subvention (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R13099",
+   "url": ""
+  },
+  "13460": {
+   "numero": "13460*03",
+   "titre": "Propriétaire occupant : plan de financement (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R21223",
+   "url": ""
+  },
+  "13461": {
+   "numero": "13461*03",
+   "titre": "Propriétaire bailleur : plan de financement (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42684",
+   "url": ""
+  },
+  "13462": {
+   "numero": "13462*01",
+   "titre": "Procuration sous seing privé pour signer les engagements relatifs à une demande de subvention (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2365",
+   "url": ""
+  },
+  "13463": {
+   "numero": "13463*02",
+   "titre": "Procuration en cas de désignation d'un mandataire (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R123",
+   "url": ""
+  },
+  "13464": {
+   "numero": "13464*04",
+   "titre": "Propriétaire bailleur : engagements à respecter par le nouveau propriétaire (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R140",
+   "url": ""
+  },
+  "13465": {
+   "numero": "13465*04",
+   "titre": "Propriétaire occupant : déclaration du nouveau propriétaire (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R11452",
+   "url": ""
+  },
+  "13466": {
+   "numero": "13466*03",
+   "titre": "Propriétaire bailleur : demander à l’Anah le versement d'un acompte pour commencer les travaux",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R15226",
+   "url": ""
+  },
+  "13467": {
+   "numero": "13467*02",
+   "titre": "Propriétaire occupant : demande de paiement d'acompte (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68128",
+   "url": ""
+  },
+  "13483": {
+   "numero": "13483*02",
+   "titre": "Demande de consultation du dossier d'assistance éducative au tribunal pour enfants",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18759",
+   "url": ""
+  },
+  "13484": {
+   "numero": "13484*02",
+   "titre": "Demande de consultation des pièces annexes d'un acte de l'état civil",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2228",
+   "url": ""
+  },
+  "13485": {
+   "numero": "13485*02",
+   "titre": "Demande d'une copie d'un extrait conservé au répertoire civil",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R44842",
+   "url": ""
+  },
+  "13486": {
+   "numero": "13486*04",
+   "titre": "Demande de rendez-vous pour la prestation d'un serment professionnel",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18767",
+   "url": ""
+  },
+  "13487": {
+   "numero": "13487*03",
+   "titre": "Demande de copie des pièces annexes fournies lors de l'établissement d'un acte de mariage",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2937",
+   "url": ""
+  },
+  "13567": {
+   "numero": "13567*02",
+   "titre": "Exonération de la taxe d'habitation pour chambres d'hôtes et meublés de tourisme situés en zone France de revitalisation rurale (ZFRR ou ZFRR+)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R11242",
+   "url": "https://www.impots.gouv.fr/sites/default/files/formulaires/1205-gd-sd/2025/1205-gd-sd_1279.pdf"
+  },
+  "13592": {
+   "numero": "13592*04",
+   "titre": "Mandat de protection future",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17967",
+   "url": ""
+  },
+  "13594": {
+   "numero": "13594*02",
+   "titre": "Déclaration de surendettement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17094",
+   "url": "https://www.banque-france.fr/system/files/2026-04/826143_Fiche_justificatifs_SUREN.pdf"
+  },
+  "13616": {
+   "numero": "13616*01",
+   "titre": "Demande de dérogation pour la capture, l'enlèvement, la destruction, la perturbation intentionnelle de spécimens d'espèces animales protégées",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2501",
+   "url": ""
+  },
+  "13632": {
+   "numero": "13632*12",
+   "titre": "Demande d’autorisation de défrichement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19258",
+   "url": ""
+  },
+  "13633": {
+   "numero": "13633*03",
+   "titre": "Recueil de la volonté de la victime d'être ou de ne pas être informée sur l'exécution de la peine",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19919",
+   "url": ""
+  },
+  "13661": {
+   "numero": "13661*04",
+   "titre": "Déclaration de maladie professionnelle - Exploitant agricole",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19395",
+   "url": ""
+  },
+  "13679": {
+   "numero": "13679*02",
+   "titre": "Demande d'Asi par le titulaire d'une pension de retraite anticipée ou d'une pension de réversion versée par la Sécurité sociale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R43033",
+   "url": "https://www.lassuranceretraite.fr/portail-info/files/live/sites/pub/files/PDF/demande-asi.pdf"
+  },
+  "13704": {
+   "numero": "13704*03",
+   "titre": "Relevé individuel des temps d'activité prud'homale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19374",
+   "url": ""
+  },
+  "13705": {
+   "numero": "13705*01",
+   "titre": "Demande de remboursement des salaires maintenus pour l’exercice des fonctions prud’homales",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54406",
+   "url": ""
+  },
+  "13710": {
+   "numero": "13710*04",
+   "titre": "Demande d'Aspa auprès de la Caisse nationale d'assurance vieillesse (Cnav) et de la Cavimac",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16935",
+   "url": "https://www.lassuranceretraite.fr/portail-info/files/live/sites/pub/files/PDF/PS/demande-aspa.pdf"
+  },
+  "13748": {
+   "numero": "13748*05",
+   "titre": "Redevance pour protection du milieu aquatique - Déclaration au titre de l'année",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18121",
+   "url": ""
+  },
+  "13749": {
+   "numero": "13749*05",
+   "titre": "Demande de certificat d’immatriculation (appelé auparavant carte grise) - Véhicule neuf",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14220",
+   "url": ""
+  },
+  "13750": {
+   "numero": "13750*07",
+   "titre": "Demande de certificat d'immatriculation d'un véhicule",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R13567",
+   "url": ""
+  },
+  "13752": {
+   "numero": "13752*02",
+   "titre": "Demande de délivrance de certificat(s) W garage",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14217",
+   "url": ""
+  },
+  "13753": {
+   "numero": "13753*04",
+   "titre": "Déclaration de perte ou vol d’un certificat d’immatriculation (appelé auparavant carte grise)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1417",
+   "url": ""
+  },
+  "13757": {
+   "numero": "13757*03",
+   "titre": "Mandat pour effectuer les formalités d'immatriculation",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1137",
+   "url": ""
+  },
+  "13773": {
+   "numero": "13773*02",
+   "titre": "Certificat médical d'accouchement pour faire établir un acte d'enfant sans vie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19553",
+   "url": ""
+  },
+  "13806": {
+   "numero": "13806*04",
+   "titre": "Demande d'autorisation d'un système de vidéoprotection",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R13984",
+   "url": ""
+  },
+  "13837": {
+   "numero": "13837*03",
+   "titre": "Déclaration d'ouvrage : prélèvements, puits et forages à usage domestique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R20077",
+   "url": ""
+  },
+  "13853": {
+   "numero": "13853*04",
+   "titre": "Déclaration d’un engin non homologué relevant de DICEM (quad, mini moto, dirt bike, moto-cross…)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19217",
+   "url": ""
+  },
+  "13888": {
+   "numero": "13888*03",
+   "titre": "Déclaration individuelle de candidature - Élection des délégués cantonaux du 3ème collège - Mutualité sociale agricole - Personnes physiques",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53803",
+   "url": ""
+  },
+  "13889": {
+   "numero": "13889*03",
+   "titre": "Déclaration collective de candidature - Élection des délégués cantonaux du 2ème collège - Mutualité sociale agricole",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53805",
+   "url": ""
+  },
+  "13912": {
+   "numero": "13912*05",
+   "titre": "Convention relative à la mise en œuvre d'une période de mise en situation en milieu professionnel",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R38861",
+   "url": ""
+  },
+  "13913": {
+   "numero": "13913*02",
+   "titre": "Demande d'agrément pour exercer à titre individuel l'activité mandataire judiciaire à la protection des majeurs",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1898",
+   "url": ""
+  },
+  "13916": {
+   "numero": "13916*03",
+   "titre": "Demande d'habilitation et d'inscription de travaux d'intérêt général par une association ou une personne morale de droit privé chargée d'une mission de service public",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16070",
+   "url": ""
+  },
+  "13926": {
+   "numero": "13926*02",
+   "titre": "Demande de remboursement des frais de transport des stagiaires de la formation professionnelle",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63942",
+   "url": ""
+  },
+  "13931": {
+   "numero": "13931*01",
+   "titre": "Déclaration semestrielle du nombre de mesures judiciaires d'aide à la gestion du budget familial",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19839",
+   "url": ""
+  },
+  "13932": {
+   "numero": "13932*02",
+   "titre": "Déclaration semestrielle du nombre de mesures de protection des majeurs et de secrétaires spécialisés",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17573",
+   "url": ""
+  },
+  "13933": {
+   "numero": "13933*06",
+   "titre": "Syndicat des copropriétaires : demande de versement d'une avance pour commencer les travaux (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12130",
+   "url": ""
+  },
+  "13934": {
+   "numero": "13934*05",
+   "titre": "Propriétaire occupant : demande de versement d'une avance pour commencer les travaux (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12064",
+   "url": ""
+  },
+  "13939": {
+   "numero": "13939*01",
+   "titre": "Déclaration préalable d'une vente au déballage",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18906",
+   "url": ""
+  },
+  "13944": {
+   "numero": "13944*07",
+   "titre": "Déclaration de perte et demande de duplicata d’un permis de chasser perdu, détruit ou détérioré",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1338",
+   "url": ""
+  },
+  "13960": {
+   "numero": "13960*02",
+   "titre": "Demande de permis de visite (prison)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1027",
+   "url": ""
+  },
+  "13967": {
+   "numero": "13967*01",
+   "titre": "Attestation de travaux d'amélioration de la performance énergétique pouvant donner lieu à une participation du locataire du parc public",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10933",
+   "url": ""
+  },
+  "13968": {
+   "numero": "13968*01",
+   "titre": "Attestation de travaux d'amélioration de la performance énergétique pouvant donner lieu à une participation du locataire du parc privé",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R13706",
+   "url": ""
+  },
+  "13969": {
+   "numero": "13969*01",
+   "titre": "Déclaration de la liste des associations membres d'une union ou d'une fédération d'associations (formulaire)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R20989",
+   "url": ""
+  },
+  "13970": {
+   "numero": "13970*01",
+   "titre": "Déclaration de l'état des immeubles dont l'association est propriétaire (formulaire)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R20990",
+   "url": ""
+  },
+  "13971": {
+   "numero": "13971*03",
+   "titre": "Déclaration de la liste des personnes chargées de l'administration d'une association (formulaire)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R20991",
+   "url": ""
+  },
+  "13972": {
+   "numero": "13972*03",
+   "titre": "Modification d'une association (titre, objet, siège social, adresse de gestion, dissolution)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19468",
+   "url": ""
+  },
+  "13973": {
+   "numero": "13973*04",
+   "titre": "Création d'une association",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19467",
+   "url": ""
+  },
+  "13974": {
+   "numero": "13974*02",
+   "titre": "Enquête sociale - Majoration pour assistance constante d'une tierce personne",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10103",
+   "url": ""
+  },
+  "13975": {
+   "numero": "13975*02",
+   "titre": "Expertise médicale - majoration pour assistance constante d'une tierce personne",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10107",
+   "url": ""
+  },
+  "13984": {
+   "numero": "13984*06",
+   "titre": "Déclaration de manipulation de denrées alimentaires d'origine animale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17520",
+   "url": ""
+  },
+  "13996": {
+   "numero": "13996*01",
+   "titre": "Dossier de demande de délivrance d’un permis de détention d’un chien catégorisé",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R15679",
+   "url": ""
+  },
+  "13997": {
+   "numero": "13997*01",
+   "titre": "Dossier de demande de délivrance d’un permis provisoire de détention d’un chien catégorisé",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R52224",
+   "url": ""
+  },
+  "14000": {
+   "numero": "14000*02",
+   "titre": "Enfant(s) en résidence alternée - Déclaration et choix des parents",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R36342",
+   "url": ""
+  },
+  "14004": {
+   "numero": "14004*04",
+   "titre": "Déclaration en mairie des meublés de tourisme",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14321",
+   "url": ""
+  },
+  "14009": {
+   "numero": "14009*01",
+   "titre": "Demande d'agrément pour exercer à titre individuel l'activité de délégué aux prestations familiales",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R13604",
+   "url": ""
+  },
+  "14011": {
+   "numero": "14011*02",
+   "titre": "Déclaration de perte de carte d'identité ou de passeport",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R13630",
+   "url": ""
+  },
+  "14023": {
+   "numero": "14023*01",
+   "titre": "Demande de permission ou d'autorisation de voirie, de permis de stationnement, ou d'autorisation d'entreprendre des travaux",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17000",
+   "url": ""
+  },
+  "14039": {
+   "numero": "14039*06",
+   "titre": "Propriétaire bailleur : demander une convention Anah avec travaux (loyer social, très social, intermédiaire)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12062",
+   "url": ""
+  },
+  "14049": {
+   "numero": "14049*12",
+   "titre": "Cotisation additionnelle due à la Caisse de garantie du logement locatif social",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R31402",
+   "url": ""
+  },
+  "14069": {
+   "numero": "14069*05",
+   "titre": "Demande de logement social (et renouvellement de demande)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R149",
+   "url": ""
+  },
+  "14073": {
+   "numero": "14073*02",
+   "titre": "Demande de prêt à l'amélioration du lieu d'accueil (PALA) ou prêt à l'amélioration de l'habitat (PAH) pour les assistantes maternelles",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R71914",
+   "url": "https://www.caf.fr/sites/default/files/medias/078/documents/offre-service/paham2014.pdf"
+  },
+  "14076": {
+   "numero": "14076*05",
+   "titre": "Demande de visa Schengen (visa de court séjour)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1476",
+   "url": ""
+  },
+  "14094": {
+   "numero": "14094*06",
+   "titre": "Déclaration concernant une carte Vitale (Caisse nationale militaire de sécurité nationale)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R351",
+   "url": ""
+  },
+  "14095": {
+   "numero": "14095*03",
+   "titre": "Demande d'autorisation d'un système de vidéoprotection pour un établissement bancaire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R24394",
+   "url": ""
+  },
+  "14103": {
+   "numero": "14103*01",
+   "titre": "Demande d'indemnité temporaire d'inaptitude",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14821",
+   "url": ""
+  },
+  "14104": {
+   "numero": "14104*01",
+   "titre": "Demande d'affiliation à l'assurance vieillesse d'un aidant familial",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1612",
+   "url": ""
+  },
+  "14130": {
+   "numero": "14130*02",
+   "titre": "RSA - Demande complémentaire pour un jeune de moins de 25 ans",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R11225",
+   "url": ""
+  },
+  "14136": {
+   "numero": "14136*05",
+   "titre": "Demande d'évaluation de rachat pour la retraite de vos années d'études supérieures",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12713",
+   "url": "https://www.lassuranceretraite.fr/portail-info/files/live/sites/pub/files/PDF/rachats-etudes-superieures.pdf"
+  },
+  "14161": {
+   "numero": "14161*01",
+   "titre": "Demande de renouvellement d'agrément d'une association d'usagers du système de santé - Fiche A bis",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R11224",
+   "url": ""
+  },
+  "14208": {
+   "numero": "14208*01",
+   "titre": "Déclaration trimestrielle AAH auprès de la Caf ou MSA",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14412",
+   "url": ""
+  },
+  "14248": {
+   "numero": "14248*06",
+   "titre": "Déclaration d'un local à usage commercial ou professionnel (formulaire n° 6660-REV)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R36862",
+   "url": "https://www.impots.gouv.fr/sites/default/files/formulaires/6660-rev/2021/6660-rev_3555.pdf"
+  },
+  "14342": {
+   "numero": "14342*01",
+   "titre": "Demande de carte d'invalidité",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33366",
+   "url": ""
+  },
+  "14358": {
+   "numero": "14358*01",
+   "titre": "Carnet de pêche à l'anguille",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R21844",
+   "url": ""
+  },
+  "14365": {
+   "numero": "14365*01",
+   "titre": "Certificat de destruction d'un véhicule - Déclaration d'achat pour destruction",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R21908",
+   "url": ""
+  },
+  "14366": {
+   "numero": "14366*01",
+   "titre": "Certificat de destruction d'un véhicule - Déclaration d'intention de détruire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R21909",
+   "url": ""
+  },
+  "14415": {
+   "numero": "14415*07",
+   "titre": "Demande de cure thermale - Article L212-1 du code des pensions militaires d'invalidité et des victimes de la guerre",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32228",
+   "url": ""
+  },
+  "14433": {
+   "numero": "14433*02",
+   "titre": "Demande d'autorisation spéciale de travaux compris dans le périmètre d'une aire de mise en valeur de l'architecture et du patrimoine (AVAP)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19161",
+   "url": ""
+  },
+  "14445": {
+   "numero": "14445*02",
+   "titre": "Demande de rattachement des enfants à l'un ou aux deux parents - Assurances maladie et maternité",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16671",
+   "url": ""
+  },
+  "14448": {
+   "numero": "14448*04",
+   "titre": "Demande de prise en charge d'hospitalisation au titre de l'article L.212-1 du code des pensions militaires d'invalidité et des victimes de guerre (CPMIVG)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10762",
+   "url": ""
+  },
+  "14454": {
+   "numero": "14454*05",
+   "titre": "Attestation d'intervention d'un avocat pour l'assistance d'une personne placée en garde à vue, en retenue ou d’une victime",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2459",
+   "url": ""
+  },
+  "14463": {
+   "numero": "14463*03",
+   "titre": "Déclarer un accident du travail ou de trajet",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14587",
+   "url": "https://www.ameli.fr/sites/default/files/formulaires/128/s6200_homol_ix_17_rempl.pdf"
+  },
+  "14465": {
+   "numero": "14465*01",
+   "titre": "Ordonnance bizone",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R973",
+   "url": "https://www.ameli.fr/sites/default/files/formualires/205/s3321.pdf"
+  },
+  "14470": {
+   "numero": "14470*02",
+   "titre": "Dossier de demande de subvention - Politique de la ville",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58251",
+   "url": ""
+  },
+  "14555": {
+   "numero": "14555*01",
+   "titre": "Demande d'allocation journalière d'accompagnement à domicile d'une personne en fin de vie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19466",
+   "url": "http://www.ameli.fr/fileadmin/user_upload/formulaires/S3708.pdf"
+  },
+  "14566": {
+   "numero": "14566*04",
+   "titre": "Aide Habiter mieux : signature d'engagements complémentaires (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17415",
+   "url": ""
+  },
+  "14571": {
+   "numero": "14571*06",
+   "titre": "Demande de visa pour un long séjour en France (format papier)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1475",
+   "url": ""
+  },
+  "14584": {
+   "numero": "14584*01",
+   "titre": "Demande de RSA (Mayotte)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R931",
+   "url": ""
+  },
+  "14585": {
+   "numero": "14585*01",
+   "titre": "Demande complémentaire de RSA - non salarié (Mayotte)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R204",
+   "url": ""
+  },
+  "14599": {
+   "numero": "14599*01",
+   "titre": "Demande d'autorisation d'une rupture conventionnelle d'un contrat de travail à durée indéterminée (CDI) d'un salarié protégé",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R15060",
+   "url": ""
+  },
+  "14606": {
+   "numero": "14606*04",
+   "titre": "Enquête annuelle sur l'application du supplément de loyer de solidarité (SLS)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19823",
+   "url": ""
+  },
+  "14611": {
+   "numero": "14611*02",
+   "titre": "Demande de réquisition de passage au titre de l’article L212-1 du code des pensions militaires d’invalidité et des victimes de guerre",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2277",
+   "url": ""
+  },
+  "14636": {
+   "numero": "14636*04",
+   "titre": "Enquête sur l'occupation des logements locatifs sociaux",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2709",
+   "url": ""
+  },
+  "14673": {
+   "numero": "14673*01",
+   "titre": "Permis bateau - Certificat d'aptitude physique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1309",
+   "url": ""
+  },
+  "14675": {
+   "numero": "14675*01",
+   "titre": "Déclaration de conduite accompagnée d'un bateau de plaisance à moteur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1373",
+   "url": ""
+  },
+  "14679": {
+   "numero": "14679*02",
+   "titre": "Demande de duplicata d'un permis bateau de plaisance à moteur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R21200",
+   "url": ""
+  },
+  "14680": {
+   "numero": "14680*02",
+   "titre": "Permis de conduire des bateaux de plaisance à moteur : demande d'inscription à une extension",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18914",
+   "url": ""
+  },
+  "14681": {
+   "numero": "14681*03",
+   "titre": "Demande d'inscription au permis bateau à moteur option \"côtière\" ou \"eaux intérieures\"",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R21199",
+   "url": ""
+  },
+  "14682": {
+   "numero": "14682*01",
+   "titre": "Fiche plaisance eaux intérieures pour la mise en service ou la radiation d'un bateau de plaisance",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1367",
+   "url": "https://www.ecologique-solidaire.gouv.fr/sites/default/files/Carte%20des%20services%20instructeurs%20-%20enregistrement%20bateau%20Eaux%20int%C3%A9rieures.pdf"
+  },
+  "14683": {
+   "numero": "14683*04",
+   "titre": "Demande de délivrance par équivalence d'un titre de conduite des bateaux de plaisance à moteur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R21202",
+   "url": ""
+  },
+  "14725": {
+   "numero": "14725*01",
+   "titre": "Anah : engagement du syndicat de copropriétaires dans le cadre du versement de l'aide Habiter mieux",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18487",
+   "url": ""
+  },
+  "14728": {
+   "numero": "14728*01",
+   "titre": "Certificat international d'importation de matériels de guerre et matériels assimilés",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R11485",
+   "url": ""
+  },
+  "14730": {
+   "numero": "14730*01",
+   "titre": "Demande d'aide à l'importation d'animaux vivants",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R23564",
+   "url": ""
+  },
+  "14732": {
+   "numero": "14732*03",
+   "titre": "Demande d'admission en Éhpad",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17461",
+   "url": ""
+  },
+  "14771": {
+   "numero": "14771*01",
+   "titre": "Candidature pour le concours d'entrée sur titre pour une formation spécialisée de l'école de l'armée de l'Air de Saintes (EETAA)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16663",
+   "url": ""
+  },
+  "14815": {
+   "numero": "14815*02",
+   "titre": "Déclaration au greffe du tribunal en cas de recours pour les élections professionnelles dans les très petites entreprises",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R24273",
+   "url": ""
+  },
+  "14818": {
+   "numero": "14818*04",
+   "titre": "Demande d'aide - Contrat unique d'insertion (CUI)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16476",
+   "url": ""
+  },
+  "14820": {
+   "numero": "14820*02",
+   "titre": "DU OPEX Imprimé d'identification du blessé en OPEX (militaire/civil)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2409",
+   "url": ""
+  },
+  "14821": {
+   "numero": "14821*04",
+   "titre": "DU OPEX Besoin du bénéficiaire - Bordereau de transmission des pièces justificatives",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58554",
+   "url": ""
+  },
+  "14837": {
+   "numero": "14837*01",
+   "titre": "Demande de pension d'invalidité de veuf ou de veuve - personne relevant du régime agricole (MSA)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R24548",
+   "url": ""
+  },
+  "14880": {
+   "numero": "14880*02",
+   "titre": "Permis de conduire - Avis médical",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14006",
+   "url": ""
+  },
+  "14903": {
+   "numero": "14903*33",
+   "titre": "Demande de retraite d'un fonctionnaire de l'État ou d'un magistrat",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51503",
+   "url": ""
+  },
+  "14919": {
+   "numero": "14919*05",
+   "titre": "Requête au juge des tutelles - Nouvel examen d'une mesure de protection judiciaire d'un majeur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R31793",
+   "url": ""
+  },
+  "14938": {
+   "numero": "14938*15",
+   "titre": "Déclaration de débarquement de thon rouge dans le cadre d'une pêche de loisir",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32312",
+   "url": ""
+  },
+  "14952": {
+   "numero": "14952*04",
+   "titre": "Voter par procuration",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12675",
+   "url": ""
+  },
+  "14954": {
+   "numero": "14954*01",
+   "titre": "Demande d'allocation veuvage auprès de la MSA",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32890",
+   "url": ""
+  },
+  "14955": {
+   "numero": "14955*01",
+   "titre": "Déclaration de situation familiale et de revenus auprès de la MSA",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32895",
+   "url": ""
+  },
+  "14997": {
+   "numero": "14997*04",
+   "titre": "Déclaration de candidature aux élections municipales et communautaires",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R34318",
+   "url": ""
+  },
+  "14998": {
+   "numero": "14998*03",
+   "titre": "Déclaration de candidature de liste aux élections municipales et communautaires",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R34320",
+   "url": ""
+  },
+  "15003": {
+   "numero": "15003*02",
+   "titre": "Demande de mesure d'exposition aux champs électromagnétiques",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R35088",
+   "url": ""
+  },
+  "15031": {
+   "numero": "15031*04",
+   "titre": "Déclaration via un formulaire par le patient d'événements indésirables liés aux médicaments ou aux produits de santé",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48611",
+   "url": ""
+  },
+  "15036": {
+   "numero": "15036*02",
+   "titre": "Recours amiable devant la commission départementale de médiation en vue d'une offre de logement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19319",
+   "url": ""
+  },
+  "15037": {
+   "numero": "15037*01",
+   "titre": "Recours amiable devant la commission départementale de médiation en vue de l’accueil dans une structure d’hébergement, un logement de transition, un logement-foyer ou une résidence hôtelière à vocation sociale - Droit à l'hébergement opposable (Daho)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2105",
+   "url": ""
+  },
+  "15041": {
+   "numero": "15041*03",
+   "titre": "Déclaration de candidature aux élections européennes (à remplir par chaque candidat)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17596",
+   "url": ""
+  },
+  "15044": {
+   "numero": "15044*01",
+   "titre": "Fiche d'imputation de licence individuelle d'exportation de matériels de guerre et matériels assimilés de transfert de produits liés à la défense",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R36903",
+   "url": ""
+  },
+  "15058": {
+   "numero": "15058*02",
+   "titre": "DU OPEX Formulaire d'intégration (pour reprise a posteriori des dossiers OPEX anciens)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58553",
+   "url": ""
+  },
+  "15059": {
+   "numero": "15059*02",
+   "titre": "Association : compte-rendu financier de subvention",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46623",
+   "url": ""
+  },
+  "15065": {
+   "numero": "15065*04",
+   "titre": "Demande de bourse d'études à l'École nationale supérieure maritime",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R36750",
+   "url": ""
+  },
+  "15100": {
+   "numero": "15100*13",
+   "titre": "Demande d'autorisation de pêche de loisir du thon rouge",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R36975",
+   "url": ""
+  },
+  "15173": {
+   "numero": "15173*03",
+   "titre": "Attestation de non-prise en charge par l'assureur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R39717",
+   "url": ""
+  },
+  "15186": {
+   "numero": "15186*03",
+   "titre": "Demande d'autorisation de travail pour embaucher un étranger résidant en France",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18894",
+   "url": ""
+  },
+  "15215": {
+   "numero": "15215*04",
+   "titre": "Déclaration de candidature aux élections sénatoriales (départements et collectivités élisant leurs sénateurs à la représentation proportionnelle) - À remplir par chaque candidat",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R38127",
+   "url": ""
+  },
+  "15217": {
+   "numero": "15217*04",
+   "titre": "Déclaration de candidature aux élections sénatoriales (départements et collectivités élisant leurs sénateurs au scrutin majoritaire) - À remplir par chaque candidat",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R38131",
+   "url": ""
+  },
+  "15218": {
+   "numero": "15218*04",
+   "titre": "Déclaration de candidature aux élections sénatoriales (départements et collectivités élisant leurs sénateurs au scrutin majoritaire) - À remplir par chaque remplaçant",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R38133",
+   "url": ""
+  },
+  "15244": {
+   "numero": "15244*02",
+   "titre": "Déclaration de candidature aux élections départementales - Formulaire à remplir par chaque membre du binôme de candidats",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58784",
+   "url": ""
+  },
+  "15245": {
+   "numero": "15245*02",
+   "titre": "Déclaration de candidature aux élections départementales - Formulaire à remplir par chaque remplaçant",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58785",
+   "url": ""
+  },
+  "15249": {
+   "numero": "15249*01",
+   "titre": "Adhésion à un groupe de consommateurs",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R39110",
+   "url": ""
+  },
+  "15264": {
+   "numero": "15264*02",
+   "titre": "Référendum d'initiative partagée (Rip) - Déclarer son soutien à une proposition de loi référendaire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R39695",
+   "url": ""
+  },
+  "15268": {
+   "numero": "15268*06",
+   "titre": "Cotisation due à la Caisse de garantie du logement locatif social",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2871",
+   "url": ""
+  },
+  "15277": {
+   "numero": "15277*04",
+   "titre": "Déclaration de nationalité française - Mariage avec un français",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R39936",
+   "url": ""
+  },
+  "15286": {
+   "numero": "15286*04",
+   "titre": "Déclaration conjointe de choix d'un nom de famille",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32739",
+   "url": ""
+  },
+  "15289": {
+   "numero": "15289*01",
+   "titre": "Demande d'indemnisation d'un avocat pour l'assistance d'une personne dans le cadre d'une audition libre",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R40452",
+   "url": ""
+  },
+  "15290": {
+   "numero": "15290*02",
+   "titre": "Attestation d'intervention d'un avocat pour assister une personne placée en dépôt de nuit",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R40628",
+   "url": ""
+  },
+  "15319": {
+   "numero": "15319*02",
+   "titre": "Demande de médaille de l'enfance et des familles",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2500",
+   "url": ""
+  },
+  "15394": {
+   "numero": "15394*03",
+   "titre": "Demande d'évaluation de rachat de trimestres pour la retraite au titre des années civiles d'activité professionnelle incomplètes (moins de 4 trimestres validés)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42228",
+   "url": "https://www.lassuranceretraite.fr/portail-info/files/live/sites/pub/files/PDF/rachat-activite-4-trimestre.pdf"
+  },
+  "15395": {
+   "numero": "15395*02",
+   "titre": "Demande d'évaluation de rachat pour la retraite de certaines périodes d'apprentissage et/ou d'activité comme assistant(e) maternel(le)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42229",
+   "url": "https://www.lassuranceretraite.fr/portail-info/files/live/sites/pub/files/PDF/rachats-apprentissage.pdf"
+  },
+  "15396": {
+   "numero": "15396*02",
+   "titre": "Demande d'évaluation de rachat de trimestres pour la retraite en tant qu'enfant d'ancien harki",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42230",
+   "url": "https://www.lassuranceretraite.fr/portail-info/files/live/sites/pub/files/PDF/rachats-harkis-algerie.pdf"
+  },
+  "15407": {
+   "numero": "15407*02",
+   "titre": "Déclaration de candidature aux élections régionales - Formulaire à remplir par chaque candidat de la liste",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58786",
+   "url": ""
+  },
+  "15408": {
+   "numero": "15408*02",
+   "titre": "Déclaration de candidature aux élections régionales - Formulaire à remplir par le candidat tête de liste ou son mandataire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58787",
+   "url": ""
+  },
+  "15409": {
+   "numero": "15409*02",
+   "titre": "Demande de carte du combattant et/ou de titre de reconnaissance de la Nation",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32761",
+   "url": "https://www.onac-vg.fr/sites/default/files/2023-10/cerfa_15409-02_0.pdf"
+  },
+  "15414": {
+   "numero": "15414*07",
+   "titre": "Consentement à la transmission par voie électronique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R41993",
+   "url": ""
+  },
+  "15416": {
+   "numero": "15416*01",
+   "titre": "Demande de remboursement d'un timbre électronique Passeport",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42647",
+   "url": ""
+  },
+  "15417": {
+   "numero": "15417*01",
+   "titre": "Chantier d'insertion : fiche salarié",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42086",
+   "url": ""
+  },
+  "15425": {
+   "numero": "15425*04",
+   "titre": "Demande d'émancipation",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42126",
+   "url": ""
+  },
+  "15426": {
+   "numero": "15426*06",
+   "titre": "Demande de délais à une mesure d'expulsion - Requête au juge de l'exécution",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42124",
+   "url": ""
+  },
+  "15427": {
+   "numero": "15427*02",
+   "titre": "Consentement au don d'organe entre personnes vivantes en l'absence d'urgence vitale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42173",
+   "url": ""
+  },
+  "15433": {
+   "numero": "15433*02",
+   "titre": "Requête en mainlevée d’une mesure d’hospitalisation complète",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42286",
+   "url": ""
+  },
+  "15434": {
+   "numero": "15434*02",
+   "titre": "Requête en mainlevée par un tiers d'une mesure d'hospitalisation complète en soins psychiatriques",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42290",
+   "url": ""
+  },
+  "15454": {
+   "numero": "15454*03",
+   "titre": "Requête en obligation alimentaire - Saisine du juge aux affaires familiales",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42402",
+   "url": ""
+  },
+  "15455": {
+   "numero": "15455*03",
+   "titre": "Déclaration d'acceptation d'une succession à concurrence de l'actif net",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49718",
+   "url": ""
+  },
+  "15456": {
+   "numero": "15456*02",
+   "titre": "Requête - Déclaration judiciaire de décès (après disparition)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42403",
+   "url": ""
+  },
+  "15457": {
+   "numero": "15457*03",
+   "titre": "Demande d'ouverture d'une mesure de tutelle pour un mineur : requête au juge des tutelles",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42406",
+   "url": ""
+  },
+  "15458": {
+   "numero": "15458*07",
+   "titre": "Requête au juge aux affaires familiales : délivrance d'une ordonnance de protection",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42412",
+   "url": ""
+  },
+  "15511": {
+   "numero": "15511*04",
+   "titre": "Demande d'utilisation de points acquis au titre du compte professionnel de prévention (C2P) pour la réduction du temps de travail",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46258",
+   "url": "https://www.compteprofessionnelprevention.fr/files/live/sites/preventionpenibilite/files/Prevention%20penibilite/ressources%20site%20informationnel/components/Cerfa%2015512_05%20Utilisation%20de%20points%20C2P%20pour%20la%20r%c3%a9duction%20du%20temps%20de%20travail.pdf"
+  },
+  "15512": {
+   "numero": "15512*05",
+   "titre": "Demande d'utilisation de points acquis au titre du compte professionnel de prévention (C2P) pour une majoration de durée d'assurance pour la retraite",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46252",
+   "url": "https://www.compteprofessionnelprevention.fr/files/live/sites/preventionpenibilite/files/Prevention%20penibilite/ressources%20site%20informationnel/components/Cerfa%2015511_04%20Utilisations%20de%20points%20C2P%20pour%20d%c3%a9part%20anticip%c3%a9%20%c3%a0%20la%20retraite.pdf"
+  },
+  "15529": {
+   "numero": "15529*05",
+   "titre": "Études de droits aux prestations hors de France",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R43963",
+   "url": ""
+  },
+  "15542": {
+   "numero": "15542*01",
+   "titre": "Demande d'évaluation de rachat de trimestres pour la retraite pour les périodes de stage en entreprise pendant les études supérieures",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49864",
+   "url": "https://www.lassuranceretraite.fr/portail-info/files/live/sites/pub/files/PDF/rachats-stage-entreprise.pdf"
+  },
+  "15561": {
+   "numero": "15561*03",
+   "titre": "Déclaration de nationalité française (ascendant de Français)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R44563",
+   "url": ""
+  },
+  "15562": {
+   "numero": "15562*03",
+   "titre": "Déclaration de nationalité française (frère ou sœur de Français)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R44564",
+   "url": ""
+  },
+  "15586": {
+   "numero": "15586*09",
+   "titre": "Requête aux fins de saisine du conseil de prud'hommes (CPH) par un salarié",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R45128",
+   "url": ""
+  },
+  "15587": {
+   "numero": "15587*07",
+   "titre": "Requête aux fins de saisine du conseil de prud'hommes (CPH) par un employeur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R45130",
+   "url": ""
+  },
+  "15602": {
+   "numero": "15602*04",
+   "titre": "Opposition à une injonction de payer",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10223",
+   "url": ""
+  },
+  "15603": {
+   "numero": "15603*03",
+   "titre": "Requête aux fins de constatation de présomption d'absence",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46400",
+   "url": ""
+  },
+  "15612": {
+   "numero": "15612*01",
+   "titre": "Convention relative à la mise en œuvre d'une période de mise en situation en milieu professionnel en Ésat (MISPE)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47540",
+   "url": ""
+  },
+  "15614": {
+   "numero": "15614*04",
+   "titre": "Éléments du contrat de travail pour demander une carte de séjour - Talent (entreprise innovante)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46144",
+   "url": ""
+  },
+  "15615": {
+   "numero": "15615*01",
+   "titre": "Éléments du contrat de travail justifiant une demande de carte de séjour pluriannuelle Talent \"Carte bleue européenne\"",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46145",
+   "url": ""
+  },
+  "15616": {
+   "numero": "15616*01",
+   "titre": "Éléments du contrat de travail justifiant une demande de carte de séjour Talent \"salarié en mission\"",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46146",
+   "url": ""
+  },
+  "15617": {
+   "numero": "15617*01",
+   "titre": "Éléments du ou des contrats de travail justifiant la demande d'une carte de séjour Talent \"Profession artistique et culturelle\"",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46147",
+   "url": ""
+  },
+  "15618": {
+   "numero": "15618*01",
+   "titre": "Notification d'un détachement de courte durée (inférieur ou égal à 90 jours) dans le cadre d'une mobilité en France",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46148",
+   "url": ""
+  },
+  "15619": {
+   "numero": "15619*01",
+   "titre": "Éléments du contrat de travail justifiant la demande de carte de séjour \"salarié détaché ICT\"",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46149",
+   "url": ""
+  },
+  "15622": {
+   "numero": "15622*03",
+   "titre": "Demande d'autorisation nationale de pêche (ANP) de la sole en Manche Est (CIEM VIId)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R45854",
+   "url": ""
+  },
+  "15628": {
+   "numero": "15628*02",
+   "titre": "Demande d'aide juridictionnelle - Personnes morales à but non lucratif",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47004",
+   "url": ""
+  },
+  "15646": {
+   "numero": "15646*01",
+   "titre": "Autorisation de sortie de territoire (AST)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46121",
+   "url": ""
+  },
+  "15651": {
+   "numero": "15651*01",
+   "titre": "Déclaration de mise en location de logement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47392",
+   "url": ""
+  },
+  "15652": {
+   "numero": "15652*01",
+   "titre": "Demande d'autorisation préalable de mise en location de logement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47394",
+   "url": ""
+  },
+  "15656": {
+   "numero": "15656*06",
+   "titre": "Contrat du parcours contractualisé d'accompagnement vers l'emploi et l'autonomie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46801",
+   "url": ""
+  },
+  "15663": {
+   "numero": "15663*01",
+   "titre": "Demande de transfert d'autorisation préalable de mise en location de logement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47396",
+   "url": ""
+  },
+  "15679": {
+   "numero": "15679*04",
+   "titre": "Demande d'enregistrement pour une ou plusieurs installation(s) classée(s) pour la protection de l'environnement (cerfa n°15679)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47620",
+   "url": ""
+  },
+  "15684": {
+   "numero": "15684*01",
+   "titre": "Demande de retraite d’un fonctionnaire de l’État, d’un magistrat ou d’un militaire, au titre de l’invalidité",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47414",
+   "url": ""
+  },
+  "15692": {
+   "numero": "15692*01",
+   "titre": "Demande ou renouvellement de prestations Handicap (AEEH, AAH, PCH, CMI, hébergement, Ésat...)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19993",
+   "url": ""
+  },
+  "15695": {
+   "numero": "15695*01",
+   "titre": "Certificat médical à joindre à une demande à la maison départementale des personnes handicapées (MDPH)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19996",
+   "url": ""
+  },
+  "15701": {
+   "numero": "15701*02",
+   "titre": "Convention-type applicable au secteur locatif intermédiaire ou social portant sur un logement loué dans le cadre d'un bail à ferme bénéficiant de subventions pour travaux",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47919",
+   "url": ""
+  },
+  "15703": {
+   "numero": "15703*03",
+   "titre": "Demande d'apostille",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47867",
+   "url": ""
+  },
+  "15707": {
+   "numero": "15707*02",
+   "titre": "Requête au juge des enfants dans le cadre du suivi d'un dossier d'assistance éducative",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47878",
+   "url": ""
+  },
+  "15708": {
+   "numero": "15708*02",
+   "titre": "Demander une saisie sur salaire (ou saisie des rémunérations)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R47876",
+   "url": ""
+  },
+  "15716": {
+   "numero": "15716*03",
+   "titre": "Requête en autorisation de travail du mineur en cas de désaccord des parents - Saisine du juge des tutelles",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48260",
+   "url": ""
+  },
+  "15717": {
+   "numero": "15717*01",
+   "titre": "Déclaration de transfert de résidence hors de France",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63307",
+   "url": "https://www.ameli.fr/sites/default/files/formulaires/341544/s1105_puma_transfert_resid_remp.pdf"
+  },
+  "15725": {
+   "numero": "15725*03",
+   "titre": "Déclaration conjointe d'un pacte civil de solidarité (Pacs) et attestations sur l'honneur de non-parenté, non-alliance et résidence commune",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48756",
+   "url": ""
+  },
+  "15726": {
+   "numero": "15726*02",
+   "titre": "Convention-type de pacte civil de solidarité (Pacs)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48755",
+   "url": ""
+  },
+  "15731": {
+   "numero": "15731*03",
+   "titre": "Requête au juge des tutelles aux fins d'autorisation d'un acte dans le cadre d'une administration légale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48337",
+   "url": ""
+  },
+  "15732": {
+   "numero": "15732*03",
+   "titre": "Requête au juge des tutelles aux fins de contrôle dans le cadre d'une administration légale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48338",
+   "url": ""
+  },
+  "15733": {
+   "numero": "15733*03",
+   "titre": "Requête au juge des tutelles en cas de désaccord sur un acte dans le cadre d'une administration légale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48339",
+   "url": ""
+  },
+  "15734": {
+   "numero": "15734*03",
+   "titre": "Demande d’habilitation judiciaire aux fins de représentation du conjoint - Requête au juge des tutelles",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48340",
+   "url": ""
+  },
+  "15736": {
+   "numero": "15736*04",
+   "titre": "Requête en adoption plénière d’un enfant par des époux, partenaires de Pacs ou concubins",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48348",
+   "url": ""
+  },
+  "15737": {
+   "numero": "15737*04",
+   "titre": "Requête en adoption simple d'un mineur par une personne à titre individuel",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48350",
+   "url": ""
+  },
+  "15738": {
+   "numero": "15738*04",
+   "titre": "Requête en adoption simple d'un majeur par des époux, partenaires ou concubins",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48356",
+   "url": ""
+  },
+  "15739": {
+   "numero": "15739*03",
+   "titre": "Requête en adoption simple d'un majeur par une personne à titre individuel",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48358",
+   "url": ""
+  },
+  "15740": {
+   "numero": "15740*04",
+   "titre": "Requête en adoption simple d'un enfant par des époux ou partenaires de Pacs ou concubins",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48360",
+   "url": ""
+  },
+  "15741": {
+   "numero": "15741*06",
+   "titre": "Requête en adoption simple de l'enfant mineur du conjoint, partenaire ou concubin",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48362",
+   "url": ""
+  },
+  "15742": {
+   "numero": "15742*03",
+   "titre": "Requête en adoption plénière d'un enfant par une personne à titre individuel",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48364",
+   "url": ""
+  },
+  "15743": {
+   "numero": "15743*05",
+   "titre": "Requête en adoption plénière de l'enfant mineur du conjoint, partenaire ou concubin",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48366",
+   "url": ""
+  },
+  "15763": {
+   "numero": "15763*02",
+   "titre": "Demander l'ouverture des droits à l'Assurance maladie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R45084",
+   "url": ""
+  },
+  "15774": {
+   "numero": "15774*03",
+   "titre": "Déclaration d'appel au civil (sans représentation obligatoire)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48700",
+   "url": ""
+  },
+  "15776": {
+   "numero": "15776*02",
+   "titre": "Certificat de cession d'un véhicule d'occasion",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R20300",
+   "url": ""
+  },
+  "15787": {
+   "numero": "15787*01",
+   "titre": "Obtenir un rescrit en matière d'affichage des prix",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62668",
+   "url": ""
+  },
+  "15789": {
+   "numero": "15789*03",
+   "titre": "Déclaration conjointe de dissolution d'un Pacs",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R73180",
+   "url": ""
+  },
+  "15790": {
+   "numero": "15790*02",
+   "titre": "Déclaration conjointe de modification d'un pacte civil de solidarité (Pacs)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49073",
+   "url": ""
+  },
+  "15791": {
+   "numero": "15791*01",
+   "titre": "Convention modificative type de pacte civil de solidarité (Pacs)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49072",
+   "url": ""
+  },
+  "15796": {
+   "numero": "15796*02",
+   "titre": "Fiche de signalement et d'enquête accident ou incident grave dans un établissement physique d'activité physique et sportive (EAPS)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49384",
+   "url": ""
+  },
+  "15811": {
+   "numero": "15811*03",
+   "titre": "Requête en renonciation à la succession au nom d'un enfant mineur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49666",
+   "url": ""
+  },
+  "15812": {
+   "numero": "15812*03",
+   "titre": "Requête en renonciation à la succession au nom d'un majeur placé sous tutelle",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49695",
+   "url": ""
+  },
+  "15813": {
+   "numero": "15813*03",
+   "titre": "Requête en acceptation de la succession au nom d'un enfant mineur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49668",
+   "url": ""
+  },
+  "15817": {
+   "numero": "15817*03",
+   "titre": "Formulaire de requête devant le Tribunal du stationnement payant",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49753",
+   "url": ""
+  },
+  "15824": {
+   "numero": "15824*03",
+   "titre": "Déclaration d'une marche ou d'une course à pied chronométrée sur la voie publique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49744",
+   "url": ""
+  },
+  "15825": {
+   "numero": "15825*02",
+   "titre": "Déclaration d'une marche ou d'une course à pied non chronométrée sur la voie publique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49745",
+   "url": ""
+  },
+  "15826": {
+   "numero": "15826*01",
+   "titre": "Déclaration d'une course cycliste non chronométrée sur la voie publique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49746",
+   "url": ""
+  },
+  "15827": {
+   "numero": "15827*01",
+   "titre": "Déclaration d'une course cycliste chronométrée sur la voie publique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49747",
+   "url": ""
+  },
+  "15828": {
+   "numero": "15828*05",
+   "titre": "Renonciation à succession par une personne majeure",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2849",
+   "url": ""
+  },
+  "15829": {
+   "numero": "15829*04",
+   "titre": "Déclaration de renonciation à la succession au nom d'un majeur placé sous habilitation familiale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49730",
+   "url": ""
+  },
+  "15830": {
+   "numero": "15830*03",
+   "titre": "Déclaration de renonciation à la succession par un majeur placé sous curatelle",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49726",
+   "url": ""
+  },
+  "15831": {
+   "numero": "15831*03",
+   "titre": "Déclaration de renonciation au nom d'un majeur placé sous tutelle",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49724",
+   "url": ""
+  },
+  "15832": {
+   "numero": "15832*05",
+   "titre": "Déclaration de renonciation à une succession au nom d'un enfant mineur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49722",
+   "url": ""
+  },
+  "15833": {
+   "numero": "15833*05",
+   "titre": "Renonciation à succession au nom d'une personne morale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49854",
+   "url": ""
+  },
+  "15847": {
+   "numero": "15847*01",
+   "titre": "Demande d'autorisation d'une manifestation sportive motorisée chronométrée sur la voie publique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49969",
+   "url": ""
+  },
+  "15848": {
+   "numero": "15848*01",
+   "titre": "Déclaration d'une manifestation sportive motorisée non chronométrée sur la voie publique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18494",
+   "url": ""
+  },
+  "15849": {
+   "numero": "15849*01",
+   "titre": "Demande d'homologation d'un circuit",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18491",
+   "url": ""
+  },
+  "15854": {
+   "numero": "15854*03",
+   "titre": "Demande d'indemnisation kilométrique liée à l'activité de défenseur syndical",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49994",
+   "url": ""
+  },
+  "15855": {
+   "numero": "15855*04",
+   "titre": "Demande d'indemnisation pour l'exercice des fonctions d'un défenseur syndical rémunéré à la commission",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49993",
+   "url": ""
+  },
+  "15856": {
+   "numero": "15856*03",
+   "titre": "Demande de remboursement des salaires maintenus pour l'exercice des fonctions de défenseur syndical",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19373",
+   "url": ""
+  },
+  "15866": {
+   "numero": "15866*03",
+   "titre": "Requête en renonciation à succession au nom d'un majeur placé sous habilitation familiale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49728",
+   "url": ""
+  },
+  "15868": {
+   "numero": "15868*02",
+   "titre": "Demande de pension d'invalidité : victimes civiles de guerre ou personnes assimilées aux militaires",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1304",
+   "url": ""
+  },
+  "15869": {
+   "numero": "15869*03",
+   "titre": "Demande de pension d'invalidité : victime d'actes de terrorisme",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48714",
+   "url": ""
+  },
+  "15871": {
+   "numero": "15871*03",
+   "titre": "Demande de pension d'invalidité : époux, partenaire de Pacs ou orphelin d'un militaire décédé, ou victime civile de guerre décédée ou victime de terrorisme décédée",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50560",
+   "url": ""
+  },
+  "15872": {
+   "numero": "15872*02",
+   "titre": "Demande de pension d'ascendants de militaire décédé, de victime civile de guerre décédée ou de victime d'acte de terrorisme décédée",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17200",
+   "url": ""
+  },
+  "15873": {
+   "numero": "15873*02",
+   "titre": "Demande de majoration d'une pension d'invalidité pour enfant adopté ou recueilli, ou atteint d'un handicap",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50561",
+   "url": ""
+  },
+  "15874": {
+   "numero": "15874*03",
+   "titre": "Requête en autorisation de changement de nom d'un mineur pour motif légitime en cas de désaccord des parents",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50211",
+   "url": ""
+  },
+  "15875": {
+   "numero": "15875*03",
+   "titre": "Recours devant le juge en matière d'élections professionnelles et de désignation des représentants syndicaux",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50286",
+   "url": ""
+  },
+  "15878": {
+   "numero": "15878*03",
+   "titre": "Liste électorale : saisir le juge en cas d'omission ou de radiation par la commission administrative",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55504",
+   "url": ""
+  },
+  "15882": {
+   "numero": "15882*02",
+   "titre": "Déclaration de détention d'animal de compagnie appartenant à une espèce exotique envahissante",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50393",
+   "url": ""
+  },
+  "15891": {
+   "numero": "15891*03",
+   "titre": "Requête en vue d'une protection juridique d'un majeur (habilitation familiale ou protection judiciaire)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50473",
+   "url": ""
+  },
+  "15902": {
+   "numero": "15902*02",
+   "titre": "Procuration - Consultation Nouvelle-Calédonie : accès à la pleine souveraineté",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55190",
+   "url": ""
+  },
+  "15909": {
+   "numero": "15909*02",
+   "titre": "Déclaration relative à une association (M0 ASSO)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51669",
+   "url": ""
+  },
+  "15911": {
+   "numero": "15911*04",
+   "titre": "Requête en acceptation de la succession au nom d'un majeur placé sous protection juridique (habilitation familiale ou tutelle)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49733",
+   "url": ""
+  },
+  "15923": {
+   "numero": "15923*01",
+   "titre": "Propriétaire occupant : mandat pour une demande d'aide financière en ligne (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51472",
+   "url": ""
+  },
+  "15924": {
+   "numero": "15924*02",
+   "titre": "Demande de carte du combattant, du titre de reconnaissance de la Nation, de l'allocation de reconnaissance du combattant pour les services effectués en Algérie de 1962 à 1964",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51791",
+   "url": ""
+  },
+  "15929": {
+   "numero": "15929*03",
+   "titre": "Demande de secours ou de prestations complémentaires à la caisse nationale militaire de sécurité sociale (CNMSS)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51717",
+   "url": "https://www.cnmss.fr/sites/default/files/2022-03/CSPC_cnmss_v2.pdf"
+  },
+  "15930": {
+   "numero": "15930*04",
+   "titre": "Déclaration au greffe du tribunal judiciaire dans le cadre d'une procédure de surendettement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51760",
+   "url": ""
+  },
+  "15956": {
+   "numero": "15956*01",
+   "titre": "Demande de carte de collectionneur d'armes et de leurs éléments de catégorie C",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53472",
+   "url": ""
+  },
+  "15964": {
+   "numero": "15964*03",
+   "titre": "Demande d'autorisation environnementale (cerfa n°15964)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53949",
+   "url": ""
+  },
+  "15971": {
+   "numero": "15971*01",
+   "titre": "Demande de mobilité en France d'un chercheur autorisé à séjourner en Europe",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53668",
+   "url": ""
+  },
+  "15972": {
+   "numero": "15972*01",
+   "titre": "Demande de mobilité en France d'un étudiant autorisé à séjourner en Europe",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53674",
+   "url": ""
+  },
+  "15973": {
+   "numero": "15973*01",
+   "titre": "Convention conclue entre le jeune au pair et la famille d'accueil",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18919",
+   "url": ""
+  },
+  "15980": {
+   "numero": "15980*04",
+   "titre": "Requête de saisine du tribunal - Contentieux de la sécurité sociale et de l'aide sociale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53718",
+   "url": ""
+  },
+  "15982": {
+   "numero": "15982*01",
+   "titre": "Déclaration de débarquement de makaire bleu et makaire blanc dans le cadre d'une pêche de loisir",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R53952",
+   "url": ""
+  },
+  "15987": {
+   "numero": "15987*01",
+   "titre": "Demander un certificat (article 39) - Reconnaissance d'un jugement étranger concernant un divorce ou l'exercice de l'autorité parentale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54058",
+   "url": ""
+  },
+  "15992": {
+   "numero": "15992*02",
+   "titre": "Demande de délivrance d'un titre exécutoire et d'homologation d'une convention parentale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54407",
+   "url": ""
+  },
+  "15994": {
+   "numero": "15994*02",
+   "titre": "Déclaration de candidature - Conseil de la Métropole de Lyon",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54621",
+   "url": ""
+  },
+  "16003": {
+   "numero": "16003*02",
+   "titre": "Déclaration de candidature - Conseil de la métropole de Lyon - À remplir par le candidat tête de liste",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54622",
+   "url": ""
+  },
+  "16014": {
+   "numero": "16014*02",
+   "titre": "Demande d'autorisation européenne de pêche dans les eaux de pays tiers à l'union européenne",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55325",
+   "url": ""
+  },
+  "16018": {
+   "numero": "16018*06",
+   "titre": "Déclaration pour le recalcul de l'aide au logement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R69303",
+   "url": ""
+  },
+  "16019": {
+   "numero": "16019*08",
+   "titre": "Déclaration de charges déductibles et pensions alimentaires - année 2026 pour la détermination des droits à l’aide au logement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R69300",
+   "url": ""
+  },
+  "16020": {
+   "numero": "16020*08",
+   "titre": "Déclaration de ressources - année 2025 pour la détermination des droits à l'aide au logement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R69302",
+   "url": ""
+  },
+  "16021": {
+   "numero": "16021*07",
+   "titre": "Déclaration de ressources mensuelles sur 12 mois pour la détermination des droits à l'aide au logement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R69304",
+   "url": ""
+  },
+  "16022": {
+   "numero": "16022*06",
+   "titre": "Aide au logement Déclaration de ressources Chiffres d'affaires/recettes sur 3 mois",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R69306",
+   "url": ""
+  },
+  "16023": {
+   "numero": "16023*06",
+   "titre": "Aide au logement Déclaration de ressources Chiffres d'affaires/recettes sur 12 mois",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R69305",
+   "url": ""
+  },
+  "16025": {
+   "numero": "16025*01",
+   "titre": "Certificat de conformité installation de gaz à usage collectif - Modèle 1",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54957",
+   "url": ""
+  },
+  "16026": {
+   "numero": "16026*02",
+   "titre": "Certificat de conformité pour une installation individuelle de gaz - Modèle 2",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54958",
+   "url": ""
+  },
+  "16027": {
+   "numero": "16027*01",
+   "titre": "Certificat de conformité - Installation de gaz de production collective de chaud, de froid et/ou d'électricité - Modèle 3",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54959",
+   "url": ""
+  },
+  "16029": {
+   "numero": "16029*01",
+   "titre": "Demande et décision d'élection de domicile (personnes sans domicile stable ou SDF)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R44660",
+   "url": ""
+  },
+  "16030": {
+   "numero": "16030*01",
+   "titre": "Attestation d'élection de domicile (personnes sans domicile stable ou SDF)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18272",
+   "url": ""
+  },
+  "16037": {
+   "numero": "16037*01",
+   "titre": "Consentement au déroulement de la procédure sans audience - Procédure orale devant le tribunal judiciaire ou le juge des contentieux de la protection",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55312",
+   "url": ""
+  },
+  "16038": {
+   "numero": "16038*01",
+   "titre": "Liste électorale : saisir le juge en cas de refus d'inscription ou de radiation par le maire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55153",
+   "url": ""
+  },
+  "16039": {
+   "numero": "16039*01",
+   "titre": "Contestation de la liste électorale par un tiers",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55236",
+   "url": ""
+  },
+  "16040": {
+   "numero": "16040*01",
+   "titre": "Demande en injonction de payer devant le juge des contentieux de la protection",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R31386",
+   "url": ""
+  },
+  "16041": {
+   "numero": "16041*02",
+   "titre": "Requête aux fins de saisine du juge des contentieux de la protection",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55323",
+   "url": ""
+  },
+  "16042": {
+   "numero": "16042*02",
+   "titre": "Requête aux fins de saisine du tribunal judiciaire ou du tribunal de proximité",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14232",
+   "url": ""
+  },
+  "16048": {
+   "numero": "16048*01",
+   "titre": "Opérations funéraires - Déclaration préalable",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R56066",
+   "url": ""
+  },
+  "16049": {
+   "numero": "16049*02",
+   "titre": "Déclaration de candidature aux élections municipales pour les communes de 1 000 habitants et plus composées de communes associées de la Polynésie française",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55462",
+   "url": ""
+  },
+  "16050": {
+   "numero": "16050*01",
+   "titre": "Déclaration de candidature de liste - Élections municipales pour les communes de 1000 habitants et plus composées de communes associées de la Polynésie française",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55463",
+   "url": ""
+  },
+  "16076": {
+   "numero": "16076*01",
+   "titre": "Requête en vue de la délégation volontaire de l'autorité parentale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R56622",
+   "url": ""
+  },
+  "16077": {
+   "numero": "16077*02",
+   "titre": "Requête en vue de la délégation de l'autorité parentale formée par un particulier, un membre de la famille, un établissement ou service départemental de l’ASE ayant recueilli l’enfant",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R56621",
+   "url": ""
+  },
+  "16078": {
+   "numero": "16078*02",
+   "titre": "Demande d'Aspa (demandeur sans pension de retraite)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54975",
+   "url": ""
+  },
+  "16079": {
+   "numero": "16079*03",
+   "titre": "Convention d'accueil d'un chercheur ou d'un enseignant étranger",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58896",
+   "url": ""
+  },
+  "16089": {
+   "numero": "16089*02",
+   "titre": "MaPrimeRénov' : mandat administratif pour la constitution de la demande de prime et sa demande de paiement et mandat financier pour la perception de la prime - Propriétaire occupant et bailleur (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68124",
+   "url": ""
+  },
+  "16096": {
+   "numero": "16096*01",
+   "titre": "Requête aux fins de transfert d'une délégation de l'autorité parentale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R56730",
+   "url": ""
+  },
+  "16097": {
+   "numero": "16097*01",
+   "titre": "Requête aux fins de révocation d'une délégation de l'autorité parentale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R56731",
+   "url": ""
+  },
+  "16098": {
+   "numero": "16098*01",
+   "titre": "Demande de libération des liens d'allégeance (perte volontaire de la nationalité française)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R57576",
+   "url": ""
+  },
+  "16108": {
+   "numero": "16108*01",
+   "titre": "Demande de prestation de l'allocation journalière du proche aidant (AJPA)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R57305",
+   "url": "https://allocation-chomage.fr/wp-content/uploads/2020/11/demande-ajpa-80.pdf"
+  },
+  "16110": {
+   "numero": "16110*02",
+   "titre": "Déclaration de candidature aux élections législatives",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R57071",
+   "url": ""
+  },
+  "16111": {
+   "numero": "16111*01",
+   "titre": "Déclaration de détention d'animaux de compagnie appartenant à une espèce exotique envahissante - Guyane",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58192",
+   "url": ""
+  },
+  "16112": {
+   "numero": "16112*01",
+   "titre": "Demande d'allocation de soutien familial (ASF)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1448",
+   "url": ""
+  },
+  "16116": {
+   "numero": "16116*07",
+   "titre": "Demande d'admission préalable à l'inscription dans les cycles d'études des écoles nationales supérieures d'architecture pour l'année 2027-2028 (dossier bleu)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R57466",
+   "url": ""
+  },
+  "16119": {
+   "numero": "16119*01",
+   "titre": "Demande de classement d'un bien compte tenu de la réglementation sur les armes",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R57632",
+   "url": ""
+  },
+  "16126": {
+   "numero": "16126*03",
+   "titre": "Saisine du Conseil supérieur de la magistrature par un justiciable",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58431",
+   "url": ""
+  },
+  "16130": {
+   "numero": "16130*01",
+   "titre": "Déclaration de maladie professionnelle ou demande de reconnaissance de maladie professionnelle",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1344",
+   "url": ""
+  },
+  "16136": {
+   "numero": "16136*03",
+   "titre": "Demande de cure thermale au titre d'une Affection Présumée Imputable au Service (APIAS)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58493",
+   "url": ""
+  },
+  "16139": {
+   "numero": "16139*01",
+   "titre": "Requête conjointe aux fins d'homologation d'une convention parentale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58771",
+   "url": ""
+  },
+  "16141": {
+   "numero": "16141*03",
+   "titre": "Déclaration de constitution de partie civile pour une affaire en cours",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58806",
+   "url": ""
+  },
+  "16149": {
+   "numero": "16149*01",
+   "titre": "Demande d'aide à la vie familiale et sociale (AVFS)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61419",
+   "url": "https://www.msa.fr/lfp/documents/11566/99449345/Demande+d'aide+%c3%a0+la+vie+familiale+et+sociale+AVFS.pdf"
+  },
+  "16150": {
+   "numero": "16150*01",
+   "titre": "Aide à la vie familiale et sociale (AVFS) - Déclaration de ressources",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61421",
+   "url": "https://www.msa.fr/lfy/documents/11566/99449345/Aide+%C3%A0+la+vie+familiale+et+sociale+AVFS+-+D%C3%A9claration+de+ressources.pdf"
+  },
+  "16152": {
+   "numero": "16152*01",
+   "titre": "Mesure de protection : compte de gestion annuel tutelle des mineurs - Administration légale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60125",
+   "url": ""
+  },
+  "16157": {
+   "numero": "16157*01",
+   "titre": "Maladie à déclaration obligatoire Infection à virus Tick-Borne Encephalitis (TBE)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64527",
+   "url": ""
+  },
+  "16158": {
+   "numero": "16158*02",
+   "titre": "Maladie à signalement obligatoire - Infection à virus West-Nile (ou virus du Nil occidental)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64526",
+   "url": ""
+  },
+  "16173": {
+   "numero": "16173*01",
+   "titre": "Demande d'aide ménagère aux familles - Caisse nationale militaire de sécurité sociale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64521",
+   "url": ""
+  },
+  "16183": {
+   "numero": "16183*02",
+   "titre": "Certificat médical de contre-indication à la vaccination COVID-19",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61073",
+   "url": ""
+  },
+  "16191": {
+   "numero": "16191*03",
+   "titre": "Demande d'effacement d'un signalement au Fichier automatisé des empreintes digitales (FAED) adressée au procureur de la République",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64519",
+   "url": ""
+  },
+  "16192": {
+   "numero": "16192*02",
+   "titre": "Demande d'effacement d'un signalement au fichier automatisé des empreintes digitales adressée au président de la chambre de l'instruction",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64518",
+   "url": ""
+  },
+  "16199": {
+   "numero": "16199*02",
+   "titre": "Voter par procuration - Nouvelle-Calédonie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61220",
+   "url": ""
+  },
+  "16204": {
+   "numero": "16204*02",
+   "titre": "Contrat d'engagement jeune",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62322",
+   "url": ""
+  },
+  "16210": {
+   "numero": "16210*01",
+   "titre": "Recueil de l'accord écrit de l'occupant ou de son représentant légal lors du contrôle dans les locaux, lieux, installations et moyens de transport à usage d'habitation",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64509",
+   "url": ""
+  },
+  "16212": {
+   "numero": "16212*05",
+   "titre": "Demande d'autorisation d'instruction dans la famille",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61887",
+   "url": ""
+  },
+  "16214": {
+   "numero": "16214*01",
+   "titre": "Demande d'agrément d'une structure d'accueil et d'accompagnement des personnes sous main de justice faisant l'objet d'une mesure de placement à l'extérieur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64508",
+   "url": ""
+  },
+  "16215": {
+   "numero": "16215*02",
+   "titre": "Demande de réparation prévue à l'article 3 de la loi n°2022-229 du 23 février 2022",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64507",
+   "url": ""
+  },
+  "16217": {
+   "numero": "16217*01",
+   "titre": "Demande d'agrément d'une structure d'accueil et d'accompagnement des personnes sous main de justice faisant l'objet d'une mesure de placement à l'extérieur - Procédure accélérée",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64506",
+   "url": ""
+  },
+  "16227": {
+   "numero": "16227*02",
+   "titre": "Diagnostic social et financier (DSF)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63181",
+   "url": ""
+  },
+  "16229": {
+   "numero": "16229*03",
+   "titre": "Demande de changement de nom de famille",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62576",
+   "url": ""
+  },
+  "16230": {
+   "numero": "16230*03",
+   "titre": "DICEM - Déclaration et identification de certains engins motorisés : quad, mini moto, dirt bike, moto-cross… - Déclaration d’un changement : coordonnées, état civil d'une personne physique et/ou informations d'une personne morale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62679",
+   "url": ""
+  },
+  "16231": {
+   "numero": "16231*01",
+   "titre": "Requête au fins de convocation du conseil de famille d'un mineur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63180",
+   "url": ""
+  },
+  "16233": {
+   "numero": "16233*04",
+   "titre": "Demande de changement de prénom",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63177",
+   "url": ""
+  },
+  "16234": {
+   "numero": "16234*03",
+   "titre": "Demande de changement de prénom d'un enfant mineur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63178",
+   "url": ""
+  },
+  "16235": {
+   "numero": "16235*01",
+   "titre": "Syndicat des copropriétaires : demande de subvention copropriété en difficulté (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63304",
+   "url": ""
+  },
+  "16236": {
+   "numero": "16236*01",
+   "titre": "MaPrimeRénov' Copropriété : demande de subvention pour travaux de rénovation énergétique (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63305",
+   "url": ""
+  },
+  "16237": {
+   "numero": "16237*02",
+   "titre": "Demande de certificat de nationalité française",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63143",
+   "url": ""
+  },
+  "16241": {
+   "numero": "16241*02",
+   "titre": "DICEM - Déclaration et identification de certains engins motorisés : quad, mini moto, dirt bike, moto-cross… - Déclaration de vente d'un engin neuf par un vendeur professionnel pour le compte d'un acquéreur",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R65154",
+   "url": ""
+  },
+  "16242": {
+   "numero": "16242*02",
+   "titre": "DICEM - Déclaration et identification de certains engins motorisés : quad, mini moto, dirt bike, moto-cross… - Confirmation (ou contestation) de la déclaration soumise par un vendeur professionnel pour votre compte",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R65156",
+   "url": ""
+  },
+  "16257": {
+   "numero": "16257*01",
+   "titre": "Demande d'une allocation maternité pour les pensionnés résidents en Polynésie française",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64132",
+   "url": ""
+  },
+  "16258": {
+   "numero": "16258*01",
+   "titre": "Demande d'une allocation prénatale pour les pensionnés résidents en Polynésie française",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64142",
+   "url": ""
+  },
+  "16259": {
+   "numero": "16259*01",
+   "titre": "Demande d’allocation familiale pour les pensionnés résidents en Nouvelle-Calédonie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64131",
+   "url": ""
+  },
+  "16260": {
+   "numero": "16260*01",
+   "titre": "Demande d'allocation familiale pour les pensionnés résidents en Polynésie Française",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64139",
+   "url": ""
+  },
+  "16261": {
+   "numero": "16261*01",
+   "titre": "Demande d'allocation familiale pour les pensionnés résidents à Wallis et Futuna",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64141",
+   "url": ""
+  },
+  "16262": {
+   "numero": "16262*01",
+   "titre": "Demande d'allocation spéciale aux enfants handicapés pour les pensionnés résidents en Polynésie française",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64137",
+   "url": ""
+  },
+  "16263": {
+   "numero": "16263*01",
+   "titre": "Demande de prime à la naissance pour les pensionnés résidents à Wallis et Futuna",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64138",
+   "url": ""
+  },
+  "16264": {
+   "numero": "16264*01",
+   "titre": "Demande d'allocation prénatale pour les pensionnés résidents en Nouvelle-Calédonie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64140",
+   "url": ""
+  },
+  "16265": {
+   "numero": "16265*01",
+   "titre": "Demande d'allocation de maternité pour les pensionnés résidents en Nouvelle-Calédonie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64130",
+   "url": ""
+  },
+  "16270": {
+   "numero": "16270*01",
+   "titre": "Vente d'immeuble à rénover (VIR) : demande de subvention pour travaux (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R65075",
+   "url": ""
+  },
+  "16272": {
+   "numero": "16272*01",
+   "titre": "Demande de subvention pour des travaux réalisés dans le cadre du dispositif d'intervention immobilière et foncière (Anah)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R65074",
+   "url": ""
+  },
+  "16276": {
+   "numero": "16276*01",
+   "titre": "F NE Déclaration relative à une autre entité de droit privé ne relevant pas des formalités des entreprises",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64012",
+   "url": ""
+  },
+  "16277": {
+   "numero": "16277*02",
+   "titre": "M0 NE Déclaration de création d'une entité de droit privé ne relevant pas des formalités d'entreprises",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64044",
+   "url": ""
+  },
+  "16278": {
+   "numero": "16278*01",
+   "titre": "M2 NE Déclaration de modification(s) des entités de droit privé ne relevant pas des formalités d'entreprises",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64046",
+   "url": ""
+  },
+  "16279": {
+   "numero": "16279*01",
+   "titre": "M4 NE Déclaration de radiation ou de cessation d'activité des entités de droit privé ne relevant pas des formalités d'entreprises",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64048",
+   "url": ""
+  },
+  "16291": {
+   "numero": "16291*01",
+   "titre": "Demande d’autorisation spéciale de travaux en abords de monuments historiques ou dans un site patrimonial remarquable",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R65385",
+   "url": ""
+  },
+  "16292": {
+   "numero": "16292*01",
+   "titre": "Maladie à déclaration obligatoire Leptospirose",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R65780",
+   "url": ""
+  },
+  "16294": {
+   "numero": "16294*01",
+   "titre": "Demande d'attribution de l'allocation spéciale aux pensionnés",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R65908",
+   "url": ""
+  },
+  "16295": {
+   "numero": "16295*01",
+   "titre": "Déclaration de choix d'une sage-femme référente",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74484",
+   "url": "https://www.ameli.fr/sites/default/files/formulaires/S3745-formulaire-declaration-sage-femme-referente.pdf"
+  },
+  "16296": {
+   "numero": "16296*03",
+   "titre": "Demande de pension militaire d'invalidité et d'indemnisation complémentaire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50582",
+   "url": ""
+  },
+  "16297": {
+   "numero": "16297*05",
+   "titre": "Demande de permis d'aménager",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R21378",
+   "url": ""
+  },
+  "16301": {
+   "numero": "16301*01",
+   "titre": "Demande d’aides à l’autonomie à domicile pour les personnes âgées",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64469",
+   "url": ""
+  },
+  "16315": {
+   "numero": "16315*02",
+   "titre": "Demande de retraite progressive d’un fonctionnaire de l’État ou d’un magistrat",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R66958",
+   "url": ""
+  },
+  "16341": {
+   "numero": "16341*01",
+   "titre": "Déclaration simplifiée d'un dommage corporel causé par un tiers",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R71854",
+   "url": ""
+  },
+  "16446": {
+   "numero": "16446*01",
+   "titre": "Mon Accompagnateur Rénov’ : Conditions de réalisation de l’ensemble des activités",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R70243",
+   "url": ""
+  },
+  "16700": {
+   "numero": "16700*03",
+   "titre": "Demander la modification d’une autorisation délivrée en cours de validité ou de régularisation",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R70975",
+   "url": ""
+  },
+  "16701": {
+   "numero": "16701*03",
+   "titre": "Demander le transfert d’une autorisation d'urbanisme délivrée en cours de validité",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2034",
+   "url": ""
+  },
+  "16702": {
+   "numero": "16702*03",
+   "titre": "Déclaration préalable constructions et travaux non soumis à permis de construire",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2028",
+   "url": ""
+  },
+  "16703": {
+   "numero": "16703*03",
+   "titre": "Déclaration préalable Installations et aménagements non soumis à permis d’aménager",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1995",
+   "url": ""
+  },
+  "16863": {
+   "numero": "16863*01",
+   "titre": "Demande de duplicata d'un permis de chasser suite à un changement d'état civil (hors nom d'usage)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R70792",
+   "url": ""
+  },
+  "16900": {
+   "numero": "16900*01",
+   "titre": "Élections 2025 de la MSA : déclaration collective de candidature 2ème collège",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68120",
+   "url": ""
+  },
+  "16902": {
+   "numero": "16902*01",
+   "titre": "Élections 2025 de la MSA : déclaration individuelle de candidature 2ème collège",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68117",
+   "url": ""
+  },
+  "16903": {
+   "numero": "16903*01",
+   "titre": "Élections 2025 de la MSA : déclaration individuelle de candidature 1er collège",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68119",
+   "url": ""
+  },
+  "16904": {
+   "numero": "16904*01",
+   "titre": "Élections 2025 de la MSA : déclaration individuelle de candidature 3ème collège (personne morale)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68116",
+   "url": ""
+  },
+  "16905": {
+   "numero": "16905*01",
+   "titre": "Élections 2025 de la MSA : déclaration individuelle de candidature 3ème collège (personne physique)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68114",
+   "url": ""
+  },
+  "16950": {
+   "numero": "16950*01",
+   "titre": "Demande de reconnaissance de l'état d'invalidité temporaire des fonctionnaires",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68843",
+   "url": ""
+  },
+  "17100": {
+   "numero": "17100*02",
+   "titre": "Mon Accompagnateur Rénov' : liste des implantations territoriales",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68716",
+   "url": ""
+  },
+  "17101": {
+   "numero": "17101*01",
+   "titre": "Mon Accompagnateur Rénov' : méthodologie proposée pour l’accompagnement des ménages dans le cadre de l'agrément",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68705",
+   "url": ""
+  },
+  "17102": {
+   "numero": "17102*01",
+   "titre": "Mon Accompagnateur Rénov' : système qualité et contrôle interne de la structure candidate à l'agrément",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68706",
+   "url": ""
+  },
+  "17103": {
+   "numero": "17103*01",
+   "titre": "Mon Accompagnateur Rénov' : attestation d’engagement de transmission du rapport annuel d'activité (dans le cadre de la demande d'agrément) – Personne morale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68708",
+   "url": ""
+  },
+  "17104": {
+   "numero": "17104*01",
+   "titre": "Mon Accompagnateur Rénov' : attestation d’engagement de transmission du rapport annuel d'activité (dans le cadre de la demande d'agrément) – Personne physique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68710",
+   "url": ""
+  },
+  "17105": {
+   "numero": "17105*01",
+   "titre": "Mon Accompagnateur Rénov' : attestation d’engagement de suivi du plan de formation complémentaire aux compétences requises et cohérent avec les missions de l'accompagnateur – Personne morale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68717",
+   "url": ""
+  },
+  "17106": {
+   "numero": "17106*01",
+   "titre": "Mon Accompagnateur Rénov' : attestation d’engagement de suivi du plan de formation complémentaire aux compétences requises et cohérent avec les missions de l'accompagnateur – Personne physique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68719",
+   "url": ""
+  },
+  "17107": {
+   "numero": "17107*01",
+   "titre": "Mon Accompagnateur Rénov' : attestation sur l’honneur de non-condamnation et de situation – Personne morale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68721",
+   "url": ""
+  },
+  "17108": {
+   "numero": "17108*01",
+   "titre": "Mon Accompagnateur Rénov' : attestation sur l’honneur de non-condamnation et de situation – Personne physique",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68722",
+   "url": ""
+  },
+  "17109": {
+   "numero": "17109*01",
+   "titre": "Mon Accompagnateur Rénov’ : synthèse des pièces justificatives communiquées dans le dossier de demande d’agrément (auditeurs énergétiques, entreprises RGE « offre globale », sociétés de tiers-financement)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68723",
+   "url": ""
+  },
+  "17110": {
+   "numero": "17110*01",
+   "titre": "Mon Accompagnateur Rénov' : récapitulatif de la demande d'agrément comprenant une synthèse des pièces justificatives communiquées dans le dossier de demande d’agrément",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68724",
+   "url": ""
+  },
+  "17111": {
+   "numero": "17111*01",
+   "titre": "Mon Accompagnateur Rénov’ : synthèse des pièces justificatives communiquées dans le dossier de demande d’agrément par les collectivités territoriales ou leurs groupements",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68726",
+   "url": ""
+  },
+  "17174": {
+   "numero": "17174*01",
+   "titre": "Demande d'aide familiale - Caisse nationale militaire de sécurité sociale",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64520",
+   "url": ""
+  },
+  "17446": {
+   "numero": "17446*01",
+   "titre": "Demande de rente temporaire d'éducation ou de rente viagère pour handicap à la suite du décès en activité d'un agent contractuel de l'État ou d'un ouvrier de l'État",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R71720",
+   "url": ""
+  },
+  "17564": {
+   "numero": "17564*01",
+   "titre": "Demande d’agrément d’accueillant familial",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R70267",
+   "url": ""
+  },
+  "17565": {
+   "numero": "17565*02",
+   "titre": "Demande d'admission au bénéfice des rémunérations pour les bénéficiaires de l'offre de repérage et de remobilisation",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R71090",
+   "url": ""
+  },
+  "17568": {
+   "numero": "17568*01",
+   "titre": "Requête en adoption simple de l'enfant majeur du conjoint, partenaire ou concubin",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R70540",
+   "url": ""
+  },
+  "17574": {
+   "numero": "17574*01",
+   "titre": "Déclaration de ressources et activité salariée (orphelin d'au moins 21 ans atteint d’un handicap qui demande une pension d’invalidité à la suite du décès d'un parent militaire)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R71923",
+   "url": ""
+  },
+  "17578": {
+   "numero": "17578*01",
+   "titre": "Déclaration de capture accidentelle d'espadon ou de thon germon dans le cadre de la pêche de loisir en mer Méditerranée",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R72747",
+   "url": ""
+  },
+  "17582": {
+   "numero": "17582*01",
+   "titre": "Demande d'une mesure conservatoire d'opposition à la sortie du territoire (OST) de mineur(s) - Conflit parental",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R37013",
+   "url": ""
+  },
+  "17585": {
+   "numero": "17585*02",
+   "titre": "Demande de mise à jour des actes de l’état civil à la suite d’un changement de nom autorisé par décret",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R73748",
+   "url": ""
+  },
+  "17596": {
+   "numero": "17596*02",
+   "titre": "Aides du fonds de prévention retrait-gonflement des sols argileux dans la construction : mandat administratif et/ou financier pour la perception de la prime (Propriétaire occupant)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74787",
+   "url": ""
+  },
+  "17597": {
+   "numero": "17597*01",
+   "titre": "Redevance pour performance des systèmes d'assainissement",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R75237",
+   "url": ""
+  },
+  "17598": {
+   "numero": "17598*01",
+   "titre": "Redevance pour performance des réseaux d'eau potable",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R75239",
+   "url": ""
+  },
+  "17601": {
+   "numero": "17601*01",
+   "titre": "Déclaration de candidature pour les communes de moins de 1 000 habitants de la Polynésie Française",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74935",
+   "url": ""
+  },
+  "17602": {
+   "numero": "17602*01",
+   "titre": "Déclaration de candidature de liste aux élections pour le conseil d'arrondissement ou de secteur à Paris, Lyon et Marseille",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74934",
+   "url": ""
+  },
+  "17603": {
+   "numero": "17603*01",
+   "titre": "Déclaration de candidature aux élections pour le Conseil d'arrondissement ou de secteur à Paris, Lyon et Marseille",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74936",
+   "url": ""
+  },
+  "17606": {
+   "numero": "17606*01",
+   "titre": "Annexe n°6 - Formulaire à remplir par le candidat tête de liste ou son représentant dans le cadre d’une déclaration de candidature aux élections municipales à Lyon et dans les communes de la métropole de Lyon",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74944",
+   "url": ""
+  },
+  "17607": {
+   "numero": "17607*01",
+   "titre": "Annexe n°7 - Formulaire à remplir par le candidat tête de liste ou son représentant dans le cadre d’une déclaration de candidature aux élections communautaires uniquement pour les communes de 1 000 habitants et plus (hors communes de la métropole de Lyon)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74946",
+   "url": ""
+  },
+  "17608": {
+   "numero": "17608*01",
+   "titre": "Annexe n°1 - Formulaire à remplir par le candidat tête de liste ou son représentant dans le cadre d’une déclaration de candidature aux élections municipales et communautaires dans les communes de 1 000 habitants ou plus",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74938",
+   "url": ""
+  },
+  "17609": {
+   "numero": "17609*01",
+   "titre": "Annexe n°2 - Formulaire à remplir par le candidat tête de liste ou son représentant dans le cadre d’une déclaration de candidature aux élections municipales dans les communes de moins de 1 000 habitants",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74939",
+   "url": ""
+  },
+  "17610": {
+   "numero": "17610*01",
+   "titre": "Annexe n°3 - Formulaire à remplir par le candidat tête de liste ou son représentant dans le cadre d’une déclaration de candidature aux élections municipales en Polynésie Française et pour les communes de plus de 1 000 habitants en Nouvelle-Calédonie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74941",
+   "url": ""
+  },
+  "17611": {
+   "numero": "17611*01",
+   "titre": "Annexe n°4 - Formulaire à remplir par le candidat tête de liste ou son représentant dans le cadre d’une déclaration de candidature aux élections municipales dans les communes de moins de 1 000 habitants en Nouvelle-Calédonie",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74942",
+   "url": ""
+  },
+  "17612": {
+   "numero": "17612*01",
+   "titre": "Annexe n°5 - Formulaire à remplir par le candidat tête de liste ou son représentant dans le cadre d’une déclaration de candidature aux élections municipales et communautaires à Paris et Marseille",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74943",
+   "url": ""
+  },
+  "17613": {
+   "numero": "17613*01",
+   "titre": "Période de reconversion professionnelle interne ou externe",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R75681",
+   "url": ""
+  },
+  "17620": {
+   "numero": "17620*01",
+   "titre": "Demande d'aide médicale de l'État (AME)",
+   "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1266",
+   "url": ""
+  }
+ }
+}
