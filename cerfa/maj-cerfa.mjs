@@ -6,7 +6,11 @@ import fs from 'node:fs';
 const SOURCE='https://www.data.gouv.fr/api/1/datasets/r/0ed10f28-d197-4324-97b3-037f625095ac'; // XML « Particuliers », mis à jour chaque jour
 const MIN=50; // en dessous, on considère que la lecture a échoué : on ne publie rien
 const local=process.argv[2];
-let xml=local?fs.readFileSync(local,'utf8'):await (await fetch(SOURCE)).text();
+let xml;
+if(local) xml=fs.readFileSync(local,'utf8');
+else{ const r=await fetch(SOURCE); const buf=Buffer.from(await r.arrayBuffer());
+  console.log('Source :',r.status,r.url,'|',r.headers.get('content-type'),'|',buf.length,'octets | début (hex) :',buf.subarray(0,8).toString('hex'));
+  xml=buf.toString('utf8'); }
 const attrs=s=>Object.fromEntries([...s.matchAll(/([\w:-]+)\s*=\s*"([^"]*)"/g)].map(m=>[m[1].toLowerCase(),m[2]]));
 const dec=s=>String(s||'').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&apos;|&#39;/g,"'").replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/\s+/g,' ').trim();
 const NUM=/\b(\d{5})\s*\*\s*(\d{2})\b/;
@@ -22,6 +26,13 @@ for(const m of xml.matchAll(/<ServiceEnLigne\b([^>]*?)(?:\/>|>([\s\S]*?)<\/Servi
   if(!cur||v>cur.v||(v===cur.v&&!cur.titre&&titre)) out[base]={numero:`${base}*${n[2]}`,v,titre,page:page||(cur&&cur.page)||'',url:a.url||(cur&&cur.url)||''};
 }
 const keys=Object.keys(out).sort();
+if(keys.length<MIN||process.env.DIAG){
+  const tags={}; for(const m of xml.matchAll(/<([A-Za-z][\w:.-]*)/g)) tags[m[1]]=(tags[m[1]]||0)+1;
+  console.log('Balises les plus fréquentes :',Object.entries(tags).sort((a,b)=>b[1]-a[1]).slice(0,40).map(([k,v])=>k+'='+v).join(' '));
+  console.log('Début du fichier :',xml.slice(0,800).replace(/\s+/g,' '));
+  const ex=[...xml.matchAll(/.{0,300}\d{5}\s*\*\s*\d{2}.{0,200}/g)].slice(0,4).map(m=>m[0].replace(/\s+/g,' '));
+  console.log('Exemples autour d’un numéro Cerfa :\n- '+ex.join('\n- '));
+  const sel=[...xml.matchAll(/<ServiceEnLigne\b[^>]*>/gi)].slice(0,3).map(m=>m[0]); console.log('Exemples de ServiceEnLigne :',sel.join(' || ')); }
 if(keys.length<MIN){ console.error(`Seulement ${keys.length} Cerfa trouvés : lecture suspecte, cerfa.json n'est pas modifié.`); process.exit(1); }
 const cerfa=Object.fromEntries(keys.map(k=>{ const {v,...r}=out[k]; return [k,r]; }));
 const json={maj:new Date().toISOString().slice(0,10),source:'Service-Public.gouv.fr / DILA, données ouvertes (licence ouverte 2.0) : '+SOURCE,n:keys.length,cerfa};
