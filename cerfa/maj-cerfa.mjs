@@ -1,5 +1,7 @@
 // Robot Librejo : liste des Cerfa en vigueur, tirée des données ouvertes de Service-Public (DILA, licence ouverte 2.0).
-// Produit cerfa.json : { maj, source, n, cerfa: { "16029": { numero:"16029*02", titre, page, url } } }
+// Source : archive zip des fiches « vos droits » (format 3.5), une fiche R….xml par ressource.
+// Produit cerfa.json : { maj, source, n, cerfa: { "16029": { numero:"16029*01", titre, page, url } } }
+// (url = lien direct vers le PDF quand la fiche en donne un ; sinon, la page officielle suffit)
 // Usage : node maj-cerfa.mjs            (télécharge la source officielle)
 //         node maj-cerfa.mjs fichier.xml (lit un fichier local, pour tester)
 import fs from 'node:fs';
@@ -37,7 +39,6 @@ if(!Object.keys(out).length) for(const m of xml.matchAll(/<ServiceEnLigne\b([^>]
   const a=attrs(m[1]), body=m[2]||''; if(a.type&&!/formulaire/i.test(a.type)) continue;
   const raw=a.numerocerfa||((a.commentairelien||'').match(NUM)||[])[0]||((body.replace(/<NoticeLiee[\s\S]*?(<\/NoticeLiee>|\/>)/g,'').match(NUM))||[])[0];
   const id=a.id||''; add(raw,dec((body.match(/<Titre>([\s\S]*?)<\/Titre>/)||[])[1]||a.titre||''),/^R\d+$/.test(id)?`https://www.service-public.gouv.fr/particuliers/vosdroits/${id}`:'',a.url||''); }
-const ex=files.find(f=>/<NumeroCerfa>16029/.test(f.xml)); if(ex) console.log('Exemple (16029) :',ex.name,(ex.xml.match(/<NumeroCerfa>[\s\S]{0,1500}/)||[''])[0].replace(/\s+/g,' '));
 const keys=Object.keys(out).sort();
 if(keys.length<MIN){ console.error(`Seulement ${keys.length} Cerfa trouvés : lecture suspecte, cerfa.json n'est pas modifié.`); process.exit(1); }
 const cerfa=Object.fromEntries(keys.map(k=>{ const {v,...r}=out[k]; return [k,r]; }));
