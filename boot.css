@@ -1,0 +1,10 @@
+#lj-boot{position:fixed;inset:0;z-index:99999;background:#FBF6EC;display:grid;place-items:center;padding:24px;font:16px/1.5 system-ui,"Segoe UI",Roboto,sans-serif;color:#17302F}
+#lj-boot[hidden]{display:none}
+#lj-boot .lj-card{background:#fff;border:1px solid #e3ddcf;border-radius:18px;max-width:560px;width:100%;padding:28px 30px;box-shadow:0 6px 30px rgba(23,48,47,.08)}
+#lj-boot img{height:52px;display:block;margin-bottom:18px}
+#lj-boot h1{font-size:1.35rem;margin:0 0 10px}
+#lj-boot .lj-aide{color:#5b6b6a;font-size:.93rem}
+#lj-boot .lj-btn{font:inherit;font-weight:600;border:0;border-radius:10px;padding:11px 18px;background:#1F6F6B;color:#fff;cursor:pointer;margin-top:8px}
+#lj-boot .lj-btn.lj-sec{background:#fff;color:#1F6F6B;border:2px solid #1F6F6B}
+#lj-boot .lj-btn:focus-visible{outline:3px solid #E9A23B;outline-offset:2px}
+.lj-link{background:none;border:0;padding:0;font:inherit;color:inherit;font-weight:700;text-decoration:underline;cursor:pointer}

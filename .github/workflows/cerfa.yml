@@ -1,0 +1,23 @@
+# Met à jour cerfa/cerfa.json le 1er de chaque mois (et à la demande : Actions › Liste des Cerfa › Run workflow).
+name: Liste des Cerfa
+on:
+  schedule: [{cron: '17 4 1 * *'}]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  maj:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - run: node maj-cerfa.mjs
+        working-directory: cerfa
+      - name: Publier si la liste a changé
+        run: |
+          git config user.name "robot-librejo"
+          git config user.email "robot-librejo@users.noreply.github.com"
+          git add cerfa/cerfa.json
+          git diff --cached --quiet || git commit -m "Liste des Cerfa : mise à jour du $(date +%Y-%m-%d)"
+          git push

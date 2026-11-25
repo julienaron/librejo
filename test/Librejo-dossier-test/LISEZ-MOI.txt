@@ -1,0 +1,3 @@
+Dossier de TEST pour Librejo (prototype 2). Toutes les données sont fictives.
+Copiez ce dossier là où vous voulez tester (NAS, lecteur réseau, OneDrive, disque), puis choisissez-le dans Librejo.
+Mot de passe admin : test
